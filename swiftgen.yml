@@ -1,0 +1,23 @@
+input_dir: Treelllo/Resources/
+output_dir: Treelllo/Resources/Generated/
+
+strings:
+    inputs:
+        - Localize/en.lproj/localize.strings
+    outputs:
+        templateName: structured-swift5
+        output: Strings+Generated.swift
+       
+colors:
+    inputs: Colors/Colors.txt
+    outputs:
+        templateName: swift5
+        output: Colors.swift
+
+xcassets:
+    inputs: Assets/Assets.xcassets
+    outputs:
+        templateName: swift5
+        output: Assets.swift
+        params:
+            enumName: Images

@@ -1,0 +1,1 @@
+exampleBackground: #c6c115

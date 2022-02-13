@@ -1,20 +1,18 @@
 //
-//  ViewController.swift
+//  SignUpViewController.swift
 //  Treelllo
 //
-//  Created by Misha Fedorov on 11.02.2022.
+//  Created by Misha Fedorov on 12.02.2022.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SignUpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .systemPink
+
         // Do any additional setup after loading the view.
     }
 
-
 }
-

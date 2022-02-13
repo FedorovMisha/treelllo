@@ -7,5 +7,7 @@ target 'Treelllo' do
 
   # Pods for Treelllo
   pod 'SwiftGen' 
-
+  pod 'Swin'
+  pod 'SnapKit'
+  pod 'Swinject'
 end

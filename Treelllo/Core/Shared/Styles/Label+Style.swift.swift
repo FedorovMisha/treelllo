@@ -16,7 +16,7 @@ let baseLabelStyle: (UILabel) -> Void = {
   $0.translatesAutoresizingMaskIntoConstraints = false
 }
 
-func customize(
+func customized(
   withFont font: UIFont,
   color: UIColor,
   text: String = "") -> (UILabel) -> Void {
@@ -27,15 +27,27 @@ func customize(
     }
   }
 
-let clip: (UILabel) -> Void = {
+func filled(_ text: String, withKern kern: Double? = nil)
+-> (UILabel) -> Void {
+  {
+    $0.text = text
+    guard let kern = kern else { return }
+    $0.addCharacterSpacing(kernValue: kern)
+  }
+}
+
+let clipped: (UILabel) -> Void = {
   $0.clipsToBounds = true
 }
 
 // MARK: - Custom Styles
 
-let titleLabelStyle = baseLabelStyle => customize(
-  withFont: FontFamily.Nunito.black.font(size: 36),
+let titleLabelStyle = baseLabelStyle => customized(
+  withFont: FontFamily.Nunito.black.font(size: 24),
   color: .black)
 
+let descriptionLabelStyle = baseLabelStyle => customized(
+  withFont: FontFamily.Nunito.semiBold.font(size: 14),
+  color: .lightGray)
 
 

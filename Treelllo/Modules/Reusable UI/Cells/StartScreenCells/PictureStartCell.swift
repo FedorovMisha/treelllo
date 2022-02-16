@@ -28,12 +28,11 @@ class PictureStartCell: UITableViewCell {
   
   private func setUpLayout() {
     humanImageView.snp.makeConstraints({ make -> Void in
-      make.height.equalTo(360)
-      make.width.equalTo(320)
+      make.height.lessThanOrEqualTo(300)
+      make.width.equalTo(contentView)
       make.centerX.equalToSuperview()
       make.centerY.equalToSuperview()
       make.bottom.equalTo(contentView).offset(-10)
-      make.top.equalTo(contentView).offset(10)
     })
   }
   

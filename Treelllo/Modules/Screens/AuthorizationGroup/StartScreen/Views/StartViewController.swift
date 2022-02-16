@@ -25,9 +25,10 @@ class StartViewController: UIViewController {
     
     view.addSubview(tableView)
 
-    tableView.register(UITableViewCell.self, forCellReuseIdentifier: "basic-cell")
     tableView.register(TitleStartCell.self, forCellReuseIdentifier: "\(TitleStartCell.self)")
     tableView.register(PictureStartCell.self, forCellReuseIdentifier: "\(PictureStartCell.self)")
+    tableView.register(DescriptionStartCell.self, forCellReuseIdentifier: "\(DescriptionStartCell.self)")
+    tableView.register(ButtonStartCell.self, forCellReuseIdentifier: "\(ButtonStartCell.self)")
     
     tableView.dataSource = self
     tableView.delegate = self
@@ -43,7 +44,7 @@ class StartViewController: UIViewController {
 extension StartViewController: UITableViewDelegate, UITableViewDataSource {
   
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return 2
+    return 4
   }
   
   
@@ -54,6 +55,12 @@ extension StartViewController: UITableViewDelegate, UITableViewDataSource {
       return cell
     case 1:
       let cell: PictureStartCell = tableView.dequeueReusableCell(for: indexPath)
+      return cell
+    case 2:
+      let cell: DescriptionStartCell = tableView.dequeueReusableCell(for: indexPath)
+      return cell
+    case 3:
+      let cell: ButtonStartCell = tableView.dequeueReusableCell(for: indexPath)
       return cell
     default:
       fatalError("Invalid index path for cell")

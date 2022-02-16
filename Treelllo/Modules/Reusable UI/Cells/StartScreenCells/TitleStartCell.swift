@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import SnapKit
 
 class TitleStartCell: UITableViewCell {
   
@@ -14,7 +13,7 @@ class TitleStartCell: UITableViewCell {
   
   private lazy var titleLabel: UILabel = {
     let label = UILabel()
-    label.font = FontFamily.Nunito.black.font(size: 36)
+    label.font = FontFamily.Nunito.black.font(size: 20)
     label.text = "Dimas, just do it"
     label.textColor = .black
     label.textAlignment = .left

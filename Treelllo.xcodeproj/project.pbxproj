@@ -7,40 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B322DD027B697C300FCB9E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B322DCF27B697C300FCB9E4 /* AppDelegate.swift */; };
-		4B322DD927B697C500FCB9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B322DD827B697C500FCB9E4 /* Assets.xcassets */; };
-		4B322DDC27B697C500FCB9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B322DDA27B697C500FCB9E4 /* LaunchScreen.storyboard */; };
-		4B85E3DC27B97FAB00A85D3B /* UITableViewCell+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B85E3DB27B97FAB00A85D3B /* UITableViewCell+Reusable.swift */; };
-		4B85E3DE27B9800900A85D3B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B85E3DD27B9800900A85D3B /* StartViewController.swift */; };
-		4BBC574A27B7D135007AC841 /* SignUpCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC574927B7D135007AC841 /* SignUpCoordinator.swift */; };
-		4BBC574E27B7D14D007AC841 /* LoginScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC574D27B7D14D007AC841 /* LoginScreenCoordinator.swift */; };
-		4BBC575327B7D186007AC841 /* StartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC575227B7D186007AC841 /* StartCoordinator.swift */; };
-		4BBC576027B7D40F007AC841 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC575F27B7D40F007AC841 /* Coordinator.swift */; };
-		4BBC576227B7D42E007AC841 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576127B7D42E007AC841 /* Reusable.swift */; };
-		4BBC576427B7D462007AC841 /* ReusableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576327B7D462007AC841 /* ReusableViewModel.swift */; };
-		4BBC576827B7D4AE007AC841 /* TableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576727B7D4AE007AC841 /* TableCellViewModel.swift */; };
-		4BBC576A27B7D606007AC841 /* CollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576927B7D606007AC841 /* CollectionViewCellViewModel.swift */; };
-		4BBC576C27B7D679007AC841 /* FunStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576B27B7D679007AC841 /* FunStyle.swift */; };
-		4BC4405727B7ED0E00569C69 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4405627B7ED0E00569C69 /* SignUpViewController.swift */; };
-		4BC4405927B7ED2B00569C69 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4405827B7ED2B00569C69 /* LoginViewController.swift */; };
-		4BC4405B27B7ED3800569C69 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4405A27B7ED3800569C69 /* StartViewController.swift */; };
-		4BC4405D27B7ED5400569C69 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4405C27B7ED5400569C69 /* AppCoordinator.swift */; };
-		4BC79D3127B6A2A400AD179C /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4BC79D3027B6A2A400AD179C /* swiftgen.yml */; };
-		4BC79D4027B6A2E100AD179C /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC79D3527B6A2E100AD179C /* Assets.swift */; };
-		4BC79D4127B6A2E100AD179C /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC79D3627B6A2E100AD179C /* Strings+Generated.swift */; };
-		4BC79D4227B6A2E100AD179C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC79D3727B6A2E100AD179C /* Colors.swift */; };
-		4BC79D4327B6A2E100AD179C /* Localize.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BC79D3927B6A2E100AD179C /* Localize.strings */; };
-		4BC79D4427B6A2E100AD179C /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4BC79D3D27B6A2E100AD179C /* Colors.txt */; };
-		7118051E1DF08FB849778268 /* Pods_Treelllo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53090B491D106A0F3D288593 /* Pods_Treelllo.framework */; };
+		968F01BC691C19DE6D5A8F11 /* Pods_Treelllo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245A3D3EB8C7E3DF99D2468C /* Pods_Treelllo.framework */; };
+		B5680A8E27BC12D200B88A90 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576127B7D42E007AC841 /* Reusable.swift */; };
+		B5680A8F27BC12D200B88A90 /* ReusableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576327B7D462007AC841 /* ReusableViewModel.swift */; };
+		B5680A9027BC12D200B88A90 /* TableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576727B7D4AE007AC841 /* TableCellViewModel.swift */; };
+		B5680A9127BC12D200B88A90 /* CollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576927B7D606007AC841 /* CollectionViewCellViewModel.swift */; };
+		B5680A9227BC12D200B88A90 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC575F27B7D40F007AC841 /* Coordinator.swift */; };
+		B5680A9327BC12D200B88A90 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576B27B7D679007AC841 /* Operator.swift */; };
+		B5680A9427BC12D200B88A90 /* UITableViewCell+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B85E3DB27B97FAB00A85D3B /* UITableViewCell+Reusable.swift */; };
+		B5680A9527BC12D200B88A90 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC79D3527B6A2E100AD179C /* Assets.swift */; };
+		B5680A9627BC12D200B88A90 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC79D3627B6A2E100AD179C /* Strings+Generated.swift */; };
+		B5680A9727BC12D200B88A90 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC79D3727B6A2E100AD179C /* Colors.swift */; };
+		B5680A9827BC12D200B88A90 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4405627B7ED0E00569C69 /* SignUpViewController.swift */; };
+		B5680A9927BC12D200B88A90 /* SignUpCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC574927B7D135007AC841 /* SignUpCoordinator.swift */; };
+		B5680A9A27BC12D200B88A90 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4405827B7ED2B00569C69 /* LoginViewController.swift */; };
+		B5680A9B27BC12D200B88A90 /* LoginScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC574D27B7D14D007AC841 /* LoginScreenCoordinator.swift */; };
+		B5680A9E27BC12D200B88A90 /* StartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC575227B7D186007AC841 /* StartCoordinator.swift */; };
+		B5680A9F27BC12D200B88A90 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4405C27B7ED5400569C69 /* AppCoordinator.swift */; };
+		B5680AA027BC12D200B88A90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B322DCF27B697C300FCB9E4 /* AppDelegate.swift */; };
+		B5680AA127BC130000B88A90 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B85E3DD27B9800900A85D3B /* StartViewModel.swift */; };
+		B5680AA227BC130000B88A90 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4405A27B7ED3800569C69 /* StartViewController.swift */; };
+		B5680AA927BC1DDE00B88A90 /* TitleStartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5680AA827BC1DDE00B88A90 /* TitleStartCell.swift */; };
+		B5680AAB27BC227800B88A90 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5680AAA27BC227800B88A90 /* UITableView+Extension.swift */; };
+		B5680AAD27BC25A100B88A90 /* PictureStartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5680AAC27BC25A100B88A90 /* PictureStartCell.swift */; };
+		B5680AAE27BC2D1F00B88A90 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4BC79D3027B6A2A400AD179C /* swiftgen.yml */; };
+		B5680AAF27BC2D1F00B88A90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B322DDA27B697C500FCB9E4 /* LaunchScreen.storyboard */; };
+		B5680AB027BC2D1F00B88A90 /* Localize.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BC79D3927B6A2E100AD179C /* Localize.strings */; };
+		B5680AB127BC2D1F00B88A90 /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4BC79D3D27B6A2E100AD179C /* Colors.txt */; };
+		B5680AB227BC2D1F00B88A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B322DD827B697C500FCB9E4 /* Assets.xcassets */; };
+		B5680ACB27BC2EC000B88A90 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680AB727BC2EC000B88A90 /* Nunito-Medium.ttf */; };
+		B5680ACC27BC2EC000B88A90 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680AB827BC2EC000B88A90 /* Nunito-ExtraBoldItalic.ttf */; };
+		B5680ACD27BC2EC000B88A90 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680AB927BC2EC000B88A90 /* Nunito-ExtraBold.ttf */; };
+		B5680ACE27BC2EC000B88A90 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680ABA27BC2EC000B88A90 /* Nunito-ExtraLightItalic.ttf */; };
+		B5680ACF27BC2EC000B88A90 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680ABB27BC2EC000B88A90 /* Nunito-Light.ttf */; };
+		B5680AD027BC2EC000B88A90 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680ABC27BC2EC000B88A90 /* Nunito-Regular.ttf */; };
+		B5680AD127BC2EC000B88A90 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680ABD27BC2EC000B88A90 /* Nunito-SemiBold.ttf */; };
+		B5680AD227BC2EC000B88A90 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680ABE27BC2EC000B88A90 /* Nunito-Bold.ttf */; };
+		B5680AD327BC2EC000B88A90 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680ABF27BC2EC000B88A90 /* Nunito-BoldItalic.ttf */; };
+		B5680AD427BC2EC000B88A90 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680AC027BC2EC000B88A90 /* Nunito-Black.ttf */; };
+		B5680AD527BC2EC000B88A90 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680AC127BC2EC000B88A90 /* Nunito-ExtraLight.ttf */; };
+		B5680AD627BC2EC000B88A90 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680AC227BC2EC000B88A90 /* Nunito-SemiBoldItalic.ttf */; };
+		B5680AD727BC2EC000B88A90 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680AC327BC2EC000B88A90 /* Nunito-BlackItalic.ttf */; };
+		B5680AD827BC2EC000B88A90 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680AC427BC2EC000B88A90 /* Nunito-Italic.ttf */; };
+		B5680AD927BC2EC000B88A90 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680AC527BC2EC000B88A90 /* Nunito-LightItalic.ttf */; };
+		B5680ADA27BC2EC000B88A90 /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680AC627BC2EC000B88A90 /* Nunito-MediumItalic.ttf */; };
+		B5680AE127BC327200B88A90 /* DescriptionStartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5680AE027BC327200B88A90 /* DescriptionStartCell.swift */; };
+		B56ED88227BCBFCE00DE19DA /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED88127BCBFCE00DE19DA /* Fonts.swift */; };
+		B56ED88527BCC12800DE19DA /* Label+Style.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED88427BCC12800DE19DA /* Label+Style.swift.swift */; };
+		B56ED88727BCC15300DE19DA /* UIView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED88627BCC15300DE19DA /* UIView+Style.swift */; };
+		B56ED88927BCC3AF00DE19DA /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED88827BCC3AF00DE19DA /* UILabel+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		245A3D3EB8C7E3DF99D2468C /* Pods_Treelllo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Treelllo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B322DCC27B697C300FCB9E4 /* Treelllo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treelllo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B322DCF27B697C300FCB9E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B322DD827B697C500FCB9E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B322DDD27B697C500FCB9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B85E3DB27B97FAB00A85D3B /* UITableViewCell+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Reusable.swift"; sourceTree = "<group>"; };
-		4B85E3DD27B9800900A85D3B /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		4B85E3DD27B9800900A85D3B /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
 		4BBC574927B7D135007AC841 /* SignUpCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCoordinator.swift; sourceTree = "<group>"; };
 		4BBC574D27B7D14D007AC841 /* LoginScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenCoordinator.swift; sourceTree = "<group>"; };
 		4BBC575227B7D186007AC841 /* StartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCoordinator.swift; sourceTree = "<group>"; };
@@ -49,7 +74,7 @@
 		4BBC576327B7D462007AC841 /* ReusableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewModel.swift; sourceTree = "<group>"; };
 		4BBC576727B7D4AE007AC841 /* TableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellViewModel.swift; sourceTree = "<group>"; };
 		4BBC576927B7D606007AC841 /* CollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellViewModel.swift; sourceTree = "<group>"; };
-		4BBC576B27B7D679007AC841 /* FunStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunStyle.swift; sourceTree = "<group>"; };
+		4BBC576B27B7D679007AC841 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		4BC4405627B7ED0E00569C69 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4BC4405827B7ED2B00569C69 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4BC4405A27B7ED3800569C69 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -62,9 +87,35 @@
 		4BC79D3B27B6A2E100AD179C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localize.strings; sourceTree = "<group>"; };
 		4BC79D3D27B6A2E100AD179C /* Colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
 		4BC79D4627B6A34700AD179C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		53090B491D106A0F3D288593 /* Pods_Treelllo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Treelllo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D38E9116D8F8BFD3E74329DD /* Pods-Treelllo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treelllo.debug.xcconfig"; path = "Target Support Files/Pods-Treelllo/Pods-Treelllo.debug.xcconfig"; sourceTree = "<group>"; };
-		FC29D8E6690B3CB9E53BAC97 /* Pods-Treelllo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treelllo.release.xcconfig"; path = "Target Support Files/Pods-Treelllo/Pods-Treelllo.release.xcconfig"; sourceTree = "<group>"; };
+		8C2583B41D0AC88DE8736778 /* Pods-Treelllo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treelllo.release.xcconfig"; path = "Target Support Files/Pods-Treelllo/Pods-Treelllo.release.xcconfig"; sourceTree = "<group>"; };
+		B5680A6827BC0DBB00B88A90 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5680A6927BC0DBB00B88A90 /* Swin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5680A6A27BC0DBB00B88A90 /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5680AA827BC1DDE00B88A90 /* TitleStartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleStartCell.swift; sourceTree = "<group>"; };
+		B5680AAA27BC227800B88A90 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		B5680AAC27BC25A100B88A90 /* PictureStartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureStartCell.swift; sourceTree = "<group>"; };
+		B5680AB727BC2EC000B88A90 /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		B5680AB827BC2EC000B88A90 /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B5680AB927BC2EC000B88A90 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		B5680ABA27BC2EC000B88A90 /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B5680ABB27BC2EC000B88A90 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		B5680ABC27BC2EC000B88A90 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		B5680ABD27BC2EC000B88A90 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		B5680ABE27BC2EC000B88A90 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		B5680ABF27BC2EC000B88A90 /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B5680AC027BC2EC000B88A90 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		B5680AC127BC2EC000B88A90 /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B5680AC227BC2EC000B88A90 /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		B5680AC327BC2EC000B88A90 /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B5680AC427BC2EC000B88A90 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		B5680AC527BC2EC000B88A90 /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		B5680AC627BC2EC000B88A90 /* Nunito-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B5680AE027BC327200B88A90 /* DescriptionStartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionStartCell.swift; sourceTree = "<group>"; };
+		B56ED88127BCBFCE00DE19DA /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B56ED88427BCC12800DE19DA /* Label+Style.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label+Style.swift.swift"; sourceTree = "<group>"; };
+		B56ED88627BCC15300DE19DA /* UIView+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Style.swift"; sourceTree = "<group>"; };
+		B56ED88827BCC3AF00DE19DA /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		CCFEDD3C3CC73E82454AF668 /* Pods-Treelllo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treelllo.debug.xcconfig"; path = "Target Support Files/Pods-Treelllo/Pods-Treelllo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7118051E1DF08FB849778268 /* Pods_Treelllo.framework in Frameworks */,
+				968F01BC691C19DE6D5A8F11 /* Pods_Treelllo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,8 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				4BBC575427B7D19B007AC841 /* Shared */,
-				4BBC574127B7D0CD007AC841 /* Models */,
-				4BBC574027B7D0C6007AC841 /* Services */,
+				B5680AA727BC1DCE00B88A90 /* Services */,
+				B5680AA527BC1DC100B88A90 /* Models */,
 				4BBC573F27B7D0C0007AC841 /* Extensions */,
 			);
 			path = Core;
@@ -149,22 +200,10 @@
 			isa = PBXGroup;
 			children = (
 				4B85E3DB27B97FAB00A85D3B /* UITableViewCell+Reusable.swift */,
+				B5680AAA27BC227800B88A90 /* UITableView+Extension.swift */,
+				B56ED88827BCC3AF00DE19DA /* UILabel+Extension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		4BBC574027B7D0C6007AC841 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		4BBC574127B7D0CD007AC841 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		4BBC574327B7D0EE007AC841 /* AuthorizationGroup */ = {
@@ -240,7 +279,7 @@
 		4BBC574F27B7D155007AC841 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				4B85E3DD27B9800900A85D3B /* StartViewController.swift */,
+				4B85E3DD27B9800900A85D3B /* StartViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -256,9 +295,9 @@
 		4BBC575427B7D19B007AC841 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B56ED88327BCC10700DE19DA /* Styles */,
 				4BBC576627B7D49C007AC841 /* Reusable */,
 				4BBC575F27B7D40F007AC841 /* Coordinator.swift */,
-				4BBC576B27B7D679007AC841 /* FunStyle.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -277,6 +316,7 @@
 		4BC79D3327B6A2E100AD179C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B5680AB327BC2EB600B88A90 /* Fonts */,
 				4B322DDD27B697C500FCB9E4 /* Info.plist */,
 				4B322DDA27B697C500FCB9E4 /* LaunchScreen.storyboard */,
 				4BC79D3427B6A2E100AD179C /* Generated */,
@@ -293,6 +333,7 @@
 				4BC79D3527B6A2E100AD179C /* Assets.swift */,
 				4BC79D3627B6A2E100AD179C /* Strings+Generated.swift */,
 				4BC79D3727B6A2E100AD179C /* Colors.swift */,
+				B56ED88127BCBFCE00DE19DA /* Fonts.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -324,8 +365,8 @@
 		74A1060B7D49617EA2697954 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D38E9116D8F8BFD3E74329DD /* Pods-Treelllo.debug.xcconfig */,
-				FC29D8E6690B3CB9E53BAC97 /* Pods-Treelllo.release.xcconfig */,
+				CCFEDD3C3CC73E82454AF668 /* Pods-Treelllo.debug.xcconfig */,
+				8C2583B41D0AC88DE8736778 /* Pods-Treelllo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -333,9 +374,70 @@
 		A744AE2138CC870BEFE2D3CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53090B491D106A0F3D288593 /* Pods_Treelllo.framework */,
+				B5680A6827BC0DBB00B88A90 /* SnapKit.framework */,
+				B5680A6927BC0DBB00B88A90 /* Swin.framework */,
+				B5680A6A27BC0DBB00B88A90 /* Swinject.framework */,
+				245A3D3EB8C7E3DF99D2468C /* Pods_Treelllo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5680AA527BC1DC100B88A90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5680AA827BC1DDE00B88A90 /* TitleStartCell.swift */,
+				B5680AAC27BC25A100B88A90 /* PictureStartCell.swift */,
+				B5680AE027BC327200B88A90 /* DescriptionStartCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5680AA727BC1DCE00B88A90 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B5680AB327BC2EB600B88A90 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B5680AB427BC2EC000B88A90 /* Nunito */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B5680AB427BC2EC000B88A90 /* Nunito */ = {
+			isa = PBXGroup;
+			children = (
+				B5680AB727BC2EC000B88A90 /* Nunito-Medium.ttf */,
+				B5680AB827BC2EC000B88A90 /* Nunito-ExtraBoldItalic.ttf */,
+				B5680AB927BC2EC000B88A90 /* Nunito-ExtraBold.ttf */,
+				B5680ABA27BC2EC000B88A90 /* Nunito-ExtraLightItalic.ttf */,
+				B5680ABB27BC2EC000B88A90 /* Nunito-Light.ttf */,
+				B5680ABC27BC2EC000B88A90 /* Nunito-Regular.ttf */,
+				B5680ABD27BC2EC000B88A90 /* Nunito-SemiBold.ttf */,
+				B5680ABE27BC2EC000B88A90 /* Nunito-Bold.ttf */,
+				B5680ABF27BC2EC000B88A90 /* Nunito-BoldItalic.ttf */,
+				B5680AC027BC2EC000B88A90 /* Nunito-Black.ttf */,
+				B5680AC127BC2EC000B88A90 /* Nunito-ExtraLight.ttf */,
+				B5680AC227BC2EC000B88A90 /* Nunito-SemiBoldItalic.ttf */,
+				B5680AC327BC2EC000B88A90 /* Nunito-BlackItalic.ttf */,
+				B5680AC427BC2EC000B88A90 /* Nunito-Italic.ttf */,
+				B5680AC527BC2EC000B88A90 /* Nunito-LightItalic.ttf */,
+				B5680AC627BC2EC000B88A90 /* Nunito-MediumItalic.ttf */,
+			);
+			path = Nunito;
+			sourceTree = "<group>";
+		};
+		B56ED88327BCC10700DE19DA /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC576B27B7D679007AC841 /* Operator.swift */,
+				B56ED88427BCC12800DE19DA /* Label+Style.swift.swift */,
+				B56ED88627BCC15300DE19DA /* UIView+Style.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,12 +447,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B322DE027B697C500FCB9E4 /* Build configuration list for PBXNativeTarget "Treelllo" */;
 			buildPhases = (
-				ED8695729A5CE9180AA36228 /* [CP] Check Pods Manifest.lock */,
+				D097EA86362A9EBDE1413E36 /* [CP] Check Pods Manifest.lock */,
 				4BC79D3227B6A2AE00AD179C /* Swiftgen */,
 				4B322DC827B697C300FCB9E4 /* Sources */,
 				4B322DC927B697C300FCB9E4 /* Frameworks */,
 				4B322DCA27B697C300FCB9E4 /* Resources */,
-				1D332AA90930CA8947FCAD66 /* [CP] Embed Pods Frameworks */,
+				5550D89EDD91C89D092255B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -399,34 +501,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC79D4327B6A2E100AD179C /* Localize.strings in Resources */,
-				4B322DDC27B697C500FCB9E4 /* LaunchScreen.storyboard in Resources */,
-				4BC79D4427B6A2E100AD179C /* Colors.txt in Resources */,
-				4B322DD927B697C500FCB9E4 /* Assets.xcassets in Resources */,
-				4BC79D3127B6A2A400AD179C /* swiftgen.yml in Resources */,
+				B5680AD227BC2EC000B88A90 /* Nunito-Bold.ttf in Resources */,
+				B5680AD827BC2EC000B88A90 /* Nunito-Italic.ttf in Resources */,
+				B5680AD127BC2EC000B88A90 /* Nunito-SemiBold.ttf in Resources */,
+				B5680AAE27BC2D1F00B88A90 /* swiftgen.yml in Resources */,
+				B5680AD927BC2EC000B88A90 /* Nunito-LightItalic.ttf in Resources */,
+				B5680AD427BC2EC000B88A90 /* Nunito-Black.ttf in Resources */,
+				B5680ADA27BC2EC000B88A90 /* Nunito-MediumItalic.ttf in Resources */,
+				B5680ACE27BC2EC000B88A90 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				B5680AAF27BC2D1F00B88A90 /* LaunchScreen.storyboard in Resources */,
+				B5680AB027BC2D1F00B88A90 /* Localize.strings in Resources */,
+				B5680AD327BC2EC000B88A90 /* Nunito-BoldItalic.ttf in Resources */,
+				B5680AD727BC2EC000B88A90 /* Nunito-BlackItalic.ttf in Resources */,
+				B5680ACF27BC2EC000B88A90 /* Nunito-Light.ttf in Resources */,
+				B5680ACD27BC2EC000B88A90 /* Nunito-ExtraBold.ttf in Resources */,
+				B5680AD027BC2EC000B88A90 /* Nunito-Regular.ttf in Resources */,
+				B5680ACC27BC2EC000B88A90 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				B5680AD627BC2EC000B88A90 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				B5680AB127BC2D1F00B88A90 /* Colors.txt in Resources */,
+				B5680ACB27BC2EC000B88A90 /* Nunito-Medium.ttf in Resources */,
+				B5680AD527BC2EC000B88A90 /* Nunito-ExtraLight.ttf in Resources */,
+				B5680AB227BC2D1F00B88A90 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1D332AA90930CA8947FCAD66 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Treelllo/Pods-Treelllo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Treelllo/Pods-Treelllo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Treelllo/Pods-Treelllo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4BC79D3227B6A2AE00AD179C /* Swiftgen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,7 +546,24 @@
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
 		};
-		ED8695729A5CE9180AA36228 /* [CP] Check Pods Manifest.lock */ = {
+		5550D89EDD91C89D092255B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Treelllo/Pods-Treelllo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Treelllo/Pods-Treelllo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Treelllo/Pods-Treelllo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D097EA86362A9EBDE1413E36 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -474,25 +592,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BBC576027B7D40F007AC841 /* Coordinator.swift in Sources */,
-				4BC4405B27B7ED3800569C69 /* StartViewController.swift in Sources */,
-				4BC4405D27B7ED5400569C69 /* AppCoordinator.swift in Sources */,
-				4BBC576A27B7D606007AC841 /* CollectionViewCellViewModel.swift in Sources */,
-				4BBC576427B7D462007AC841 /* ReusableViewModel.swift in Sources */,
-				4BC4405927B7ED2B00569C69 /* LoginViewController.swift in Sources */,
-				4BC79D4127B6A2E100AD179C /* Strings+Generated.swift in Sources */,
-				4BBC574A27B7D135007AC841 /* SignUpCoordinator.swift in Sources */,
-				4BBC576227B7D42E007AC841 /* Reusable.swift in Sources */,
-				4BBC576827B7D4AE007AC841 /* TableCellViewModel.swift in Sources */,
-				4BBC574E27B7D14D007AC841 /* LoginScreenCoordinator.swift in Sources */,
-				4BC4405727B7ED0E00569C69 /* SignUpViewController.swift in Sources */,
-				4BC79D4227B6A2E100AD179C /* Colors.swift in Sources */,
-				4BBC576C27B7D679007AC841 /* FunStyle.swift in Sources */,
-				4B85E3DE27B9800900A85D3B /* StartViewController.swift in Sources */,
-				4B85E3DC27B97FAB00A85D3B /* UITableViewCell+Reusable.swift in Sources */,
-				4B322DD027B697C300FCB9E4 /* AppDelegate.swift in Sources */,
-				4BBC575327B7D186007AC841 /* StartCoordinator.swift in Sources */,
-				4BC79D4027B6A2E100AD179C /* Assets.swift in Sources */,
+				B5680AA127BC130000B88A90 /* StartViewModel.swift in Sources */,
+				B56ED88527BCC12800DE19DA /* Label+Style.swift.swift in Sources */,
+				B5680AAD27BC25A100B88A90 /* PictureStartCell.swift in Sources */,
+				B5680AA227BC130000B88A90 /* StartViewController.swift in Sources */,
+				B5680AAB27BC227800B88A90 /* UITableView+Extension.swift in Sources */,
+				B5680A8E27BC12D200B88A90 /* Reusable.swift in Sources */,
+				B5680A8F27BC12D200B88A90 /* ReusableViewModel.swift in Sources */,
+				B5680A9027BC12D200B88A90 /* TableCellViewModel.swift in Sources */,
+				B56ED88727BCC15300DE19DA /* UIView+Style.swift in Sources */,
+				B5680A9127BC12D200B88A90 /* CollectionViewCellViewModel.swift in Sources */,
+				B5680A9227BC12D200B88A90 /* Coordinator.swift in Sources */,
+				B5680AA927BC1DDE00B88A90 /* TitleStartCell.swift in Sources */,
+				B5680A9327BC12D200B88A90 /* Operator.swift in Sources */,
+				B5680A9427BC12D200B88A90 /* UITableViewCell+Reusable.swift in Sources */,
+				B5680A9527BC12D200B88A90 /* Assets.swift in Sources */,
+				B5680A9627BC12D200B88A90 /* Strings+Generated.swift in Sources */,
+				B5680AE127BC327200B88A90 /* DescriptionStartCell.swift in Sources */,
+				B56ED88927BCC3AF00DE19DA /* UILabel+Extension.swift in Sources */,
+				B5680A9727BC12D200B88A90 /* Colors.swift in Sources */,
+				B56ED88227BCBFCE00DE19DA /* Fonts.swift in Sources */,
+				B5680A9827BC12D200B88A90 /* SignUpViewController.swift in Sources */,
+				B5680A9927BC12D200B88A90 /* SignUpCoordinator.swift in Sources */,
+				B5680A9A27BC12D200B88A90 /* LoginViewController.swift in Sources */,
+				B5680A9B27BC12D200B88A90 /* LoginScreenCoordinator.swift in Sources */,
+				B5680A9E27BC12D200B88A90 /* StartCoordinator.swift in Sources */,
+				B5680A9F27BC12D200B88A90 /* AppCoordinator.swift in Sources */,
+				B5680AA027BC12D200B88A90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,7 +763,7 @@
 		};
 		4B322DE127B697C500FCB9E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D38E9116D8F8BFD3E74329DD /* Pods-Treelllo.debug.xcconfig */;
+			baseConfigurationReference = CCFEDD3C3CC73E82454AF668 /* Pods-Treelllo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -664,7 +790,7 @@
 		};
 		4B322DE227B697C500FCB9E4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC29D8E6690B3CB9E53BAC97 /* Pods-Treelllo.release.xcconfig */;
+			baseConfigurationReference = 8C2583B41D0AC88DE8736778 /* Pods-Treelllo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

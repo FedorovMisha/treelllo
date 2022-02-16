@@ -8,23 +8,58 @@
 import UIKit
 
 class StartViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .systemPink
-        // Do any additional setup after loading the view.
-    }
+  
+  private var tableView = UITableView()
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    view.backgroundColor = .white
     
+    conifigTableView()
+  }
+  
+  private func conifigTableView() {
+    tableView.separatorStyle = .none
+    tableView.allowsSelection = false
+//    tableView.backgroundColor = .red
+    
+    view.addSubview(tableView)
 
-    /*
-    // MARK: - Navigation
+    tableView.register(UITableViewCell.self, forCellReuseIdentifier: "basic-cell")
+    tableView.register(TitleStartCell.self, forCellReuseIdentifier: "\(TitleStartCell.self)")
+    tableView.register(PictureStartCell.self, forCellReuseIdentifier: "\(PictureStartCell.self)")
+    
+    tableView.dataSource = self
+    tableView.delegate = self
+  }
+  
+  override func viewDidLayoutSubviews() {
+    super.viewDidLayoutSubviews()
+    tableView.frame = view.bounds
+  }
+  
+}
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension StartViewController: UITableViewDelegate, UITableViewDataSource {
+  
+  func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    return 2
+  }
+  
+  
+  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    switch indexPath.row {
+    case 0:
+      let cell: TitleStartCell = tableView.dequeueReusableCell(for: indexPath)
+      return cell
+    case 1:
+      let cell: PictureStartCell = tableView.dequeueReusableCell(for: indexPath)
+      return cell
+    default:
+      fatalError("Invalid index path for cell")
     }
-    */
+  }
 
+  
 }
 

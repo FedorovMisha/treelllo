@@ -1,6 +1,13 @@
 input_dir: Treelllo/Resources/
 output_dir: Treelllo/Resources/Generated/
 
+fonts:
+  inputs:
+    - Fonts/Nunito
+  outputs:
+    templateName: swift5
+    output: CustomFonts.swift
+    
 strings:
     inputs:
         - Localize/en.lproj/localize.strings
@@ -21,3 +28,4 @@ xcassets:
         output: Assets.swift
         params:
             enumName: Images
+

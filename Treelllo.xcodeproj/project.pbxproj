@@ -152,10 +152,10 @@
 		4B322DCE27B697C300FCB9E4 /* Treelllo */ = {
 			isa = PBXGroup;
 			children = (
+				B56ED89027BCC67B00DE19DA /* Supporting files */,
 				4BBC573B27B7CDF0007AC841 /* Core */,
 				4BC79D3327B6A2E100AD179C /* Resources */,
 				4BBC573C27B7CDF6007AC841 /* Modules */,
-				4B322DCF27B697C300FCB9E4 /* AppDelegate.swift */,
 			);
 			path = Treelllo;
 			sourceTree = "<group>";
@@ -174,17 +174,10 @@
 		4BBC573C27B7CDF6007AC841 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				4BBC573D27B7CDFD007AC841 /* ReusableUI */,
+				B56ED88D27BCC5A900DE19DA /* Reusable UI */,
 				4BBC573E27B7CE07007AC841 /* Screens */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		4BBC573D27B7CDFD007AC841 /* ReusableUI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ReusableUI;
 			sourceTree = "<group>";
 		};
 		4BBC573E27B7CE07007AC841 /* Screens */ = {
@@ -295,9 +288,10 @@
 		4BBC575427B7D19B007AC841 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B56ED88A27BCC53C00DE19DA /* Operators */,
 				B56ED88327BCC10700DE19DA /* Styles */,
 				4BBC576627B7D49C007AC841 /* Reusable */,
-				4BBC575F27B7D40F007AC841 /* Coordinator.swift */,
+				B56ED88F27BCC63300DE19DA /* Navigation */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -318,7 +312,6 @@
 			children = (
 				B5680AB327BC2EB600B88A90 /* Fonts */,
 				4B322DDD27B697C500FCB9E4 /* Info.plist */,
-				4B322DDA27B697C500FCB9E4 /* LaunchScreen.storyboard */,
 				4BC79D3427B6A2E100AD179C /* Generated */,
 				4BC79D3827B6A2E100AD179C /* Localize */,
 				4BC79D3C27B6A2E100AD179C /* Colors */,
@@ -385,9 +378,6 @@
 		B5680AA527BC1DC100B88A90 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B5680AA827BC1DDE00B88A90 /* TitleStartCell.swift */,
-				B5680AAC27BC25A100B88A90 /* PictureStartCell.swift */,
-				B5680AE027BC327200B88A90 /* DescriptionStartCell.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -433,11 +423,61 @@
 		B56ED88327BCC10700DE19DA /* Styles */ = {
 			isa = PBXGroup;
 			children = (
-				4BBC576B27B7D679007AC841 /* Operator.swift */,
 				B56ED88427BCC12800DE19DA /* Label+Style.swift.swift */,
 				B56ED88627BCC15300DE19DA /* UIView+Style.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		B56ED88A27BCC53C00DE19DA /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC576B27B7D679007AC841 /* Operator.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		B56ED88B27BCC56200DE19DA /* StartScreenCells */ = {
+			isa = PBXGroup;
+			children = (
+				B5680AA827BC1DDE00B88A90 /* TitleStartCell.swift */,
+				B5680AAC27BC25A100B88A90 /* PictureStartCell.swift */,
+				B5680AE027BC327200B88A90 /* DescriptionStartCell.swift */,
+			);
+			path = StartScreenCells;
+			sourceTree = "<group>";
+		};
+		B56ED88D27BCC5A900DE19DA /* Reusable UI */ = {
+			isa = PBXGroup;
+			children = (
+				B56ED88E27BCC5B500DE19DA /* Cells */,
+			);
+			path = "Reusable UI";
+			sourceTree = "<group>";
+		};
+		B56ED88E27BCC5B500DE19DA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B56ED88B27BCC56200DE19DA /* StartScreenCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B56ED88F27BCC63300DE19DA /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4BBC575F27B7D40F007AC841 /* Coordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		B56ED89027BCC67B00DE19DA /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				4B322DCF27B697C300FCB9E4 /* AppDelegate.swift */,
+				4B322DDA27B697C500FCB9E4 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

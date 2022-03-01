@@ -4,6 +4,7 @@ output_dir: Treelllo/Resources/Generated/
 fonts:
   inputs:
     - Fonts/Nunito
+    - Fonts/Lato
   outputs:
     templateName: swift5
     output: CustomFonts.swift

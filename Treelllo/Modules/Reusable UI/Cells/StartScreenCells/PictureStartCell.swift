@@ -11,7 +11,6 @@ class PictureStartCell: UITableViewCell {
   
   private lazy var humanImageView: UIImageView = {
     let view = UIImageView()
-    view.image = Images.human.image
     view.contentMode = .scaleAspectFit
     return view
   }()

@@ -52,12 +52,27 @@
 		B5680AD927BC2EC000B88A90 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680AC527BC2EC000B88A90 /* Nunito-LightItalic.ttf */; };
 		B5680ADA27BC2EC000B88A90 /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5680AC627BC2EC000B88A90 /* Nunito-MediumItalic.ttf */; };
 		B5680AE127BC327200B88A90 /* DescriptionStartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5680AE027BC327200B88A90 /* DescriptionStartCell.swift */; };
-		B56ED88227BCBFCE00DE19DA /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED88127BCBFCE00DE19DA /* Fonts.swift */; };
 		B56ED88527BCC12800DE19DA /* Label+Style.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED88427BCC12800DE19DA /* Label+Style.swift.swift */; };
 		B56ED88727BCC15300DE19DA /* UIView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED88627BCC15300DE19DA /* UIView+Style.swift */; };
 		B56ED88927BCC3AF00DE19DA /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED88827BCC3AF00DE19DA /* UILabel+Extension.swift */; };
 		B56ED89227BD462E00DE19DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED89127BD462E00DE19DA /* Constants.swift */; };
 		B56ED89427BD491000DE19DA /* ButtonStartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED89327BD491000DE19DA /* ButtonStartCell.swift */; };
+		B576A20727CD289500068290 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B576A20627CD289500068290 /* TextFieldCell.swift */; };
+		B5D97CEF27CE16E40055683C /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D97CEE27CE16E40055683C /* UITextField+Extension.swift */; };
+		B5D97CF127CE19570055683C /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D97CF027CE19570055683C /* TextField.swift */; };
+		B5D97CF327CE29250055683C /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D97CF227CE29250055683C /* TextFieldModel.swift */; };
+		B5D97D0027CE3BA60055683C /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5D97CF527CE3BA60055683C /* Lato-Italic.ttf */; };
+		B5D97D0127CE3BA60055683C /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5D97CF627CE3BA60055683C /* Lato-LightItalic.ttf */; };
+		B5D97D0227CE3BA60055683C /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5D97CF727CE3BA60055683C /* Lato-Thin.ttf */; };
+		B5D97D0327CE3BA60055683C /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5D97CF827CE3BA60055683C /* Lato-Bold.ttf */; };
+		B5D97D0427CE3BA60055683C /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5D97CF927CE3BA60055683C /* Lato-Black.ttf */; };
+		B5D97D0527CE3BA60055683C /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5D97CFA27CE3BA60055683C /* Lato-Regular.ttf */; };
+		B5D97D0627CE3BA60055683C /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5D97CFB27CE3BA60055683C /* Lato-BlackItalic.ttf */; };
+		B5D97D0727CE3BA60055683C /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = B5D97CFC27CE3BA60055683C /* OFL.txt */; };
+		B5D97D0827CE3BA60055683C /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5D97CFD27CE3BA60055683C /* Lato-BoldItalic.ttf */; };
+		B5D97D0927CE3BA60055683C /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5D97CFE27CE3BA60055683C /* Lato-Light.ttf */; };
+		B5D97D0A27CE3BA60055683C /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5D97CFF27CE3BA60055683C /* Lato-ThinItalic.ttf */; };
+		B5D97D0C27CE3CE60055683C /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D97D0B27CE3CE60055683C /* CustomFonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,12 +128,27 @@
 		B5680AC527BC2EC000B88A90 /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
 		B5680AC627BC2EC000B88A90 /* Nunito-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-MediumItalic.ttf"; sourceTree = "<group>"; };
 		B5680AE027BC327200B88A90 /* DescriptionStartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionStartCell.swift; sourceTree = "<group>"; };
-		B56ED88127BCBFCE00DE19DA /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		B56ED88427BCC12800DE19DA /* Label+Style.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label+Style.swift.swift"; sourceTree = "<group>"; };
 		B56ED88627BCC15300DE19DA /* UIView+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Style.swift"; sourceTree = "<group>"; };
 		B56ED88827BCC3AF00DE19DA /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		B56ED89127BD462E00DE19DA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B56ED89327BD491000DE19DA /* ButtonStartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStartCell.swift; sourceTree = "<group>"; };
+		B576A20627CD289500068290 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		B5D97CEE27CE16E40055683C /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		B5D97CF027CE19570055683C /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		B5D97CF227CE29250055683C /* TextFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModel.swift; sourceTree = "<group>"; };
+		B5D97CF527CE3BA60055683C /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		B5D97CF627CE3BA60055683C /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		B5D97CF727CE3BA60055683C /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		B5D97CF827CE3BA60055683C /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		B5D97CF927CE3BA60055683C /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		B5D97CFA27CE3BA60055683C /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		B5D97CFB27CE3BA60055683C /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		B5D97CFC27CE3BA60055683C /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		B5D97CFD27CE3BA60055683C /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B5D97CFE27CE3BA60055683C /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		B5D97CFF27CE3BA60055683C /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B5D97D0B27CE3CE60055683C /* CustomFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
 		CCFEDD3C3CC73E82454AF668 /* Pods-Treelllo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treelllo.debug.xcconfig"; path = "Target Support Files/Pods-Treelllo/Pods-Treelllo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,6 +228,7 @@
 				4B85E3DB27B97FAB00A85D3B /* UITableViewCell+Reusable.swift */,
 				B5680AAA27BC227800B88A90 /* UITableView+Extension.swift */,
 				B56ED88827BCC3AF00DE19DA /* UILabel+Extension.swift */,
+				B5D97CEE27CE16E40055683C /* UITextField+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -330,7 +361,7 @@
 				4BC79D3527B6A2E100AD179C /* Assets.swift */,
 				4BC79D3627B6A2E100AD179C /* Strings+Generated.swift */,
 				4BC79D3727B6A2E100AD179C /* Colors.swift */,
-				B56ED88127BCBFCE00DE19DA /* Fonts.swift */,
+				B5D97D0B27CE3CE60055683C /* CustomFonts.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -382,6 +413,7 @@
 		B5680AA527BC1DC100B88A90 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B5D97CF227CE29250055683C /* TextFieldModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -396,6 +428,7 @@
 		B5680AB327BC2EB600B88A90 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				B5D97CF427CE3BA60055683C /* Lato */,
 				B5680AB427BC2EC000B88A90 /* Nunito */,
 			);
 			path = Fonts;
@@ -456,6 +489,7 @@
 			isa = PBXGroup;
 			children = (
 				B56ED88E27BCC5B500DE19DA /* Cells */,
+				B5D97CF027CE19570055683C /* TextField.swift */,
 			);
 			path = "Reusable UI";
 			sourceTree = "<group>";
@@ -464,6 +498,7 @@
 			isa = PBXGroup;
 			children = (
 				B56ED88B27BCC56200DE19DA /* StartScreenCells */,
+				B576A20627CD289500068290 /* TextFieldCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -484,6 +519,24 @@
 				4B322DDA27B697C500FCB9E4 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		B5D97CF427CE3BA60055683C /* Lato */ = {
+			isa = PBXGroup;
+			children = (
+				B5D97CF527CE3BA60055683C /* Lato-Italic.ttf */,
+				B5D97CF627CE3BA60055683C /* Lato-LightItalic.ttf */,
+				B5D97CF727CE3BA60055683C /* Lato-Thin.ttf */,
+				B5D97CF827CE3BA60055683C /* Lato-Bold.ttf */,
+				B5D97CF927CE3BA60055683C /* Lato-Black.ttf */,
+				B5D97CFA27CE3BA60055683C /* Lato-Regular.ttf */,
+				B5D97CFB27CE3BA60055683C /* Lato-BlackItalic.ttf */,
+				B5D97CFC27CE3BA60055683C /* OFL.txt */,
+				B5D97CFD27CE3BA60055683C /* Lato-BoldItalic.ttf */,
+				B5D97CFE27CE3BA60055683C /* Lato-Light.ttf */,
+				B5D97CFF27CE3BA60055683C /* Lato-ThinItalic.ttf */,
+			);
+			path = Lato;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -548,23 +601,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5680AD227BC2EC000B88A90 /* Nunito-Bold.ttf in Resources */,
+				B5D97D0227CE3BA60055683C /* Lato-Thin.ttf in Resources */,
 				B5680AD827BC2EC000B88A90 /* Nunito-Italic.ttf in Resources */,
 				B5680AD127BC2EC000B88A90 /* Nunito-SemiBold.ttf in Resources */,
+				B5D97D0527CE3BA60055683C /* Lato-Regular.ttf in Resources */,
 				B5680AAE27BC2D1F00B88A90 /* swiftgen.yml in Resources */,
+				B5D97D0027CE3BA60055683C /* Lato-Italic.ttf in Resources */,
 				B5680AD927BC2EC000B88A90 /* Nunito-LightItalic.ttf in Resources */,
 				B5680AD427BC2EC000B88A90 /* Nunito-Black.ttf in Resources */,
+				B5D97D0827CE3BA60055683C /* Lato-BoldItalic.ttf in Resources */,
 				B5680ADA27BC2EC000B88A90 /* Nunito-MediumItalic.ttf in Resources */,
 				B5680ACE27BC2EC000B88A90 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				B5D97D0427CE3BA60055683C /* Lato-Black.ttf in Resources */,
 				B5680AAF27BC2D1F00B88A90 /* LaunchScreen.storyboard in Resources */,
+				B5D97D0327CE3BA60055683C /* Lato-Bold.ttf in Resources */,
 				B5680AB027BC2D1F00B88A90 /* Localize.strings in Resources */,
 				B5680AD327BC2EC000B88A90 /* Nunito-BoldItalic.ttf in Resources */,
+				B5D97D0627CE3BA60055683C /* Lato-BlackItalic.ttf in Resources */,
 				B5680AD727BC2EC000B88A90 /* Nunito-BlackItalic.ttf in Resources */,
+				B5D97D0727CE3BA60055683C /* OFL.txt in Resources */,
 				B5680ACF27BC2EC000B88A90 /* Nunito-Light.ttf in Resources */,
+				B5D97D0A27CE3BA60055683C /* Lato-ThinItalic.ttf in Resources */,
 				B5680ACD27BC2EC000B88A90 /* Nunito-ExtraBold.ttf in Resources */,
 				B5680AD027BC2EC000B88A90 /* Nunito-Regular.ttf in Resources */,
+				B5D97D0927CE3BA60055683C /* Lato-Light.ttf in Resources */,
 				B5680ACC27BC2EC000B88A90 /* Nunito-ExtraBoldItalic.ttf in Resources */,
 				B5680AD627BC2EC000B88A90 /* Nunito-SemiBoldItalic.ttf in Resources */,
 				B5680AB127BC2D1F00B88A90 /* Colors.txt in Resources */,
+				B5D97D0127CE3BA60055683C /* Lato-LightItalic.ttf in Resources */,
 				B5680ACB27BC2EC000B88A90 /* Nunito-Medium.ttf in Resources */,
 				B5680AD527BC2EC000B88A90 /* Nunito-ExtraLight.ttf in Resources */,
 				B5680AB227BC2D1F00B88A90 /* Assets.xcassets in Resources */,
@@ -647,6 +711,7 @@
 				B5680A8F27BC12D200B88A90 /* ReusableViewModel.swift in Sources */,
 				B5680A9027BC12D200B88A90 /* TableCellViewModel.swift in Sources */,
 				B56ED88727BCC15300DE19DA /* UIView+Style.swift in Sources */,
+				B5D97CF327CE29250055683C /* TextFieldModel.swift in Sources */,
 				B5680A9127BC12D200B88A90 /* CollectionViewCellViewModel.swift in Sources */,
 				B5680A9227BC12D200B88A90 /* Coordinator.swift in Sources */,
 				B56ED89227BD462E00DE19DA /* Constants.swift in Sources */,
@@ -657,16 +722,19 @@
 				B5680A9527BC12D200B88A90 /* Assets.swift in Sources */,
 				B5680A9627BC12D200B88A90 /* Strings+Generated.swift in Sources */,
 				B5680AE127BC327200B88A90 /* DescriptionStartCell.swift in Sources */,
+				B5D97CF127CE19570055683C /* TextField.swift in Sources */,
 				B56ED88927BCC3AF00DE19DA /* UILabel+Extension.swift in Sources */,
 				B5680A9727BC12D200B88A90 /* Colors.swift in Sources */,
-				B56ED88227BCBFCE00DE19DA /* Fonts.swift in Sources */,
 				B5680A9827BC12D200B88A90 /* SignUpViewController.swift in Sources */,
 				B5680A9927BC12D200B88A90 /* SignUpCoordinator.swift in Sources */,
+				B5D97CEF27CE16E40055683C /* UITextField+Extension.swift in Sources */,
+				B5D97D0C27CE3CE60055683C /* CustomFonts.swift in Sources */,
 				B5680A9A27BC12D200B88A90 /* LoginViewController.swift in Sources */,
 				B5680A9B27BC12D200B88A90 /* LoginScreenCoordinator.swift in Sources */,
 				B5680A9E27BC12D200B88A90 /* StartCoordinator.swift in Sources */,
 				B5680A9F27BC12D200B88A90 /* AppCoordinator.swift in Sources */,
 				B5680AA027BC12D200B88A90 /* AppDelegate.swift in Sources */,
+				B576A20727CD289500068290 /* TextFieldCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

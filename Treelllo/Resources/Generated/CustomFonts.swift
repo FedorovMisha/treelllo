@@ -18,6 +18,19 @@ internal typealias Font = FontConvertible.Font
 
 // swiftlint:disable identifier_name line_length type_body_length
 internal enum FontFamily {
+  internal enum Lato {
+    internal static let black = FontConvertible(name: "Lato-Black", family: "Lato", path: "Lato-Black.ttf")
+    internal static let blackItalic = FontConvertible(name: "Lato-BlackItalic", family: "Lato", path: "Lato-BlackItalic.ttf")
+    internal static let bold = FontConvertible(name: "Lato-Bold", family: "Lato", path: "Lato-Bold.ttf")
+    internal static let boldItalic = FontConvertible(name: "Lato-BoldItalic", family: "Lato", path: "Lato-BoldItalic.ttf")
+    internal static let hairline = FontConvertible(name: "Lato-Hairline", family: "Lato", path: "Lato-Thin.ttf")
+    internal static let hairlineItalic = FontConvertible(name: "Lato-HairlineItalic", family: "Lato", path: "Lato-ThinItalic.ttf")
+    internal static let italic = FontConvertible(name: "Lato-Italic", family: "Lato", path: "Lato-Italic.ttf")
+    internal static let light = FontConvertible(name: "Lato-Light", family: "Lato", path: "Lato-Light.ttf")
+    internal static let lightItalic = FontConvertible(name: "Lato-LightItalic", family: "Lato", path: "Lato-LightItalic.ttf")
+    internal static let regular = FontConvertible(name: "Lato-Regular", family: "Lato", path: "Lato-Regular.ttf")
+    internal static let all: [FontConvertible] = [black, blackItalic, bold, boldItalic, hairline, hairlineItalic, italic, light, lightItalic, regular]
+  }
   internal enum Nunito {
     internal static let black = FontConvertible(name: "Nunito-Black", family: "Nunito", path: "Nunito-Black.ttf")
     internal static let blackItalic = FontConvertible(name: "Nunito-BlackItalic", family: "Nunito", path: "Nunito-BlackItalic.ttf")
@@ -37,7 +50,7 @@ internal enum FontFamily {
     internal static let semiBoldItalic = FontConvertible(name: "Nunito-SemiBoldItalic", family: "Nunito", path: "Nunito-SemiBoldItalic.ttf")
     internal static let all: [FontConvertible] = [black, blackItalic, bold, boldItalic, extraBold, extraBoldItalic, extraLight, extraLightItalic, italic, light, lightItalic, medium, mediumItalic, regular, semiBold, semiBoldItalic]
   }
-  internal static let allCustomFonts: [FontConvertible] = [Nunito.all].flatMap { $0 }
+  internal static let allCustomFonts: [FontConvertible] = [Lato.all, Nunito.all].flatMap { $0 }
   internal static func registerAllCustomFonts() {
     allCustomFonts.forEach { $0.register() }
   }

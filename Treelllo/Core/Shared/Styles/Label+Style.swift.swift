@@ -36,9 +36,6 @@ func filled(_ text: String, withKern kern: Double? = nil)
   }
 }
 
-let clipped: (UILabel) -> Void = {
-  $0.clipsToBounds = true
-}
 
 // MARK: - Custom Styles
 

@@ -18,3 +18,7 @@ func withShadow(withRadius radius: CGFloat,
      $0.layer.shadowOpacity = opacity
    }
  }
+
+let clipped: (UIView) -> Void = {
+  $0.clipsToBounds = true
+}

@@ -10,6 +10,15 @@
 		<string>Nunito-Medium.ttf</string>
 		<string>Nunito-Black.ttf</string>
 		<string>Nunito-ExtraBold.ttf</string>
+		<string>Lato-BlackItalic</string>
+		<string>Lato-ThinItalic</string>
+		<string>Lato-Light</string>
+		<string>Lato-Regular</string>
+		<string>Lato-Black</string>
+		<string>Lato-Bold</string>
+		<string>Lato-Thin</string>
+		<string>Lato-LightItalic</string>
+		<string>Lato-Italic</string>
 	</array>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string></string>

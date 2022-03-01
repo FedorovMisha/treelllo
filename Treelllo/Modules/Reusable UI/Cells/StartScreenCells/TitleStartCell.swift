@@ -9,14 +9,12 @@ import UIKit
 
 class TitleStartCell: UITableViewCell {
   
-  #warning("Dimas, that's for you")
-  
   private lazy var titleLabel: UILabel = {
     let label = UILabel()
-    label.font = FontFamily.Nunito.black.font(size: 20)
-    label.text = "Dimas, just do it"
-    label.textColor = .black
-    label.textAlignment = .left
+    label.font = FontFamily.Lato.bold.font(size: 40)
+    label.text = "Register"
+    label.textColor = ColorName.defaultBlackLabel.color
+    label.textAlignment = .center
     return label
   }()
   
@@ -27,9 +25,18 @@ class TitleStartCell: UITableViewCell {
     setUpLayout()
   }
   
+  func configure(f :(UILabel) -> Void) {
+    f(titleLabel)
+  }
+  
   private func setUpLayout() {
     titleLabel.snp.makeConstraints({ make -> Void in
-      make.edges.equalTo(contentView).inset(UIEdgeInsets(top: 20, left: 45, bottom: 20, right: 45))
+      make.centerX.equalToSuperview()
+      make.centerY.equalToSuperview()
+      make.left.equalToSuperview()
+      make.right.equalToSuperview()
+      make.top.equalTo(contentView).offset(10)
+      make.bottom.equalTo(contentView).offset(-40)
     })
   }
   

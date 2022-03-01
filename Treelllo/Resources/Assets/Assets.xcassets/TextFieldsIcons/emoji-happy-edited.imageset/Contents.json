@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "humaaan-9.png",
+      "filename" : "emoji-happy.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "humaaan-9@2x.png",
+      "filename" : "emoji-happy@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "humaaan-9@3x.png",
+      "filename" : "emoji-happy@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

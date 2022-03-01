@@ -18,9 +18,18 @@ internal struct ColorName {
   internal let rgbaValue: UInt32
   internal var color: Color { return Color(named: self) }
 
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#353535"></span>
+  /// Alpha: 100% <br/> (0x353535ff)
+  internal static let defaultBlackLabel = ColorName(rgbaValue: 0x353535ff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#222222"></span>
+  /// Alpha: 100% <br/> (0x222222ff)
+  internal static let editedTextFieldBorder = ColorName(rgbaValue: 0x222222ff)
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#c6c115"></span>
   /// Alpha: 100% <br/> (0xc6c115ff)
   internal static let exampleBackground = ColorName(rgbaValue: 0xc6c115ff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#c9c9c9"></span>
+  /// Alpha: 100% <br/> (0xc9c9c9ff)
+  internal static let grayTextFieldBorder = ColorName(rgbaValue: 0xc9c9c9ff)
 }
 // swiftlint:enable identifier_name line_length type_body_length
 

@@ -7,8 +7,8 @@
 
 import UIKit
 
-class SignUpViewController: UIViewController {
-  
+class SignUpViewController: UIViewController
+{
   private var tableView = UITableView()
   
   override func viewDidLoad() {
@@ -55,5 +55,4 @@ extension SignUpViewController: UITableViewDelegate, UITableViewDataSource {
       return cell
     }
   }
-
 }

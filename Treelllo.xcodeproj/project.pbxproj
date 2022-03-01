@@ -129,7 +129,7 @@
 		B5680AC627BC2EC000B88A90 /* Nunito-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-MediumItalic.ttf"; sourceTree = "<group>"; };
 		B5680AE027BC327200B88A90 /* DescriptionStartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionStartCell.swift; sourceTree = "<group>"; };
 		B56ED88427BCC12800DE19DA /* Label+Style.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Label+Style.swift.swift"; sourceTree = "<group>"; };
-		B56ED88627BCC15300DE19DA /* UIView+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Style.swift"; sourceTree = "<group>"; };
+		B56ED88627BCC15300DE19DA /* UIView+Style.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = "UIView+Style.swift"; sourceTree = "<group>"; tabWidth = 2; };
 		B56ED88827BCC3AF00DE19DA /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		B56ED89127BD462E00DE19DA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B56ED89327BD491000DE19DA /* ButtonStartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStartCell.swift; sourceTree = "<group>"; };

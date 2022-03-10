@@ -29,11 +29,11 @@ final class TextFieldCell: UITableViewCell {
     textField.snp.makeConstraints { make in
       make.centerX.equalTo(contentView)
       make.centerY.equalTo(contentView)
-      make.height.equalTo(50)
+      make.height.equalTo(55)
       make.left.equalTo(contentView).offset(20)
       make.right.equalTo(contentView).offset(-20)
-      make.top.equalTo(contentView).offset(10)
-      make.bottom.equalTo(contentView).offset(-10)
+      make.top.equalTo(contentView).offset(47)
+      make.bottom.equalTo(contentView).offset(0)
     }
     
   }

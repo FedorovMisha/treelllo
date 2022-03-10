@@ -18,6 +18,9 @@ internal struct ColorName {
   internal let rgbaValue: UInt32
   internal var color: Color { return Color(named: self) }
 
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#3f37c9"></span>
+  /// Alpha: 100% <br/> (0x3f37c9ff)
+  internal static let deeppurple = ColorName(rgbaValue: 0x3f37c9ff)
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#353535"></span>
   /// Alpha: 100% <br/> (0x353535ff)
   internal static let defaultBlackLabel = ColorName(rgbaValue: 0x353535ff)

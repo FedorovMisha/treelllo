@@ -33,9 +33,9 @@ enum TextFieldModel: Int {
     case .name:
       return Images.emojiHappy.image
     case .email:
-      return nil
+       return Images.sms.image
     case .password:
-      return nil
+       return Images.shieldTick.image
     }
   }
   
@@ -44,9 +44,9 @@ enum TextFieldModel: Int {
     case .name:
       return Images.emojiHappyEdited.image
     case .email:
-      return nil
+        return Images.smsEdited.image
     case .password:
-      return nil
+        return Images.shieldTickEdited.image
     }
   }
   
@@ -55,7 +55,7 @@ enum TextFieldModel: Int {
     case .name, .email:
       return nil
     case .password:
-      return nil
+        return Images.eye.image
     }
   }
 

@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		968F01BC691C19DE6D5A8F11 /* Pods_Treelllo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245A3D3EB8C7E3DF99D2468C /* Pods_Treelllo.framework */; };
+		A839FDCB27DA5CFC0079B79D /* ProfileInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A839FDCA27DA5CFC0079B79D /* ProfileInfoModel.swift */; };
+		A839FDCF27DA7E4B0079B79D /* ButtonCancelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A839FDCE27DA7E4B0079B79D /* ButtonCancelCell.swift */; };
+		A8AF107527D7D03000A051A4 /* ButtonLoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF107427D7D03000A051A4 /* ButtonLoginCell.swift */; };
+		A8AF107727D7D06800A051A4 /* ButtonCreateAccCell .swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF107627D7D06800A051A4 /* ButtonCreateAccCell .swift */; };
+		A8AF107927D7D08900A051A4 /* ViewProfileCell .swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF107827D7D08900A051A4 /* ViewProfileCell .swift */; };
+		A8AF107D27D7D0DB00A051A4 /* TitleLoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF107C27D7D0DB00A051A4 /* TitleLoginCell.swift */; };
+		A8AF108027D7D12900A051A4 /* ProfileInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF107F27D7D12900A051A4 /* ProfileInfoCell.swift */; };
+		A8AF108527D7D99A00A051A4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF108427D7D99A00A051A4 /* ProfileViewController.swift */; };
+		A8AF108727D7D9C100A051A4 /* ProfileScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF108627D7D9C100A051A4 /* ProfileScreenCoordinator.swift */; };
 		B5680A8E27BC12D200B88A90 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576127B7D42E007AC841 /* Reusable.swift */; };
 		B5680A8F27BC12D200B88A90 /* ReusableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576327B7D462007AC841 /* ReusableViewModel.swift */; };
 		B5680A9027BC12D200B88A90 /* TableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576727B7D4AE007AC841 /* TableCellViewModel.swift */; };
@@ -56,7 +65,7 @@
 		B56ED88727BCC15300DE19DA /* UIView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED88627BCC15300DE19DA /* UIView+Style.swift */; };
 		B56ED88927BCC3AF00DE19DA /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED88827BCC3AF00DE19DA /* UILabel+Extension.swift */; };
 		B56ED89227BD462E00DE19DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED89127BD462E00DE19DA /* Constants.swift */; };
-		B56ED89427BD491000DE19DA /* ButtonStartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED89327BD491000DE19DA /* ButtonStartCell.swift */; };
+		B56ED89427BD491000DE19DA /* ButtonSaveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56ED89327BD491000DE19DA /* ButtonSaveCell.swift */; };
 		B576A20727CD289500068290 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B576A20627CD289500068290 /* TextFieldCell.swift */; };
 		B5D97CEF27CE16E40055683C /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D97CEE27CE16E40055683C /* UITextField+Extension.swift */; };
 		B5D97CF127CE19570055683C /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D97CF027CE19570055683C /* TextField.swift */; };
@@ -105,6 +114,15 @@
 		4BC79D3D27B6A2E100AD179C /* Colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
 		4BC79D4627B6A34700AD179C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C2583B41D0AC88DE8736778 /* Pods-Treelllo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treelllo.release.xcconfig"; path = "Target Support Files/Pods-Treelllo/Pods-Treelllo.release.xcconfig"; sourceTree = "<group>"; };
+		A839FDCA27DA5CFC0079B79D /* ProfileInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoModel.swift; sourceTree = "<group>"; };
+		A839FDCE27DA7E4B0079B79D /* ButtonCancelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCancelCell.swift; sourceTree = "<group>"; };
+		A8AF107427D7D03000A051A4 /* ButtonLoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLoginCell.swift; sourceTree = "<group>"; };
+		A8AF107627D7D06800A051A4 /* ButtonCreateAccCell .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ButtonCreateAccCell .swift"; sourceTree = "<group>"; };
+		A8AF107827D7D08900A051A4 /* ViewProfileCell .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewProfileCell .swift"; sourceTree = "<group>"; };
+		A8AF107C27D7D0DB00A051A4 /* TitleLoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLoginCell.swift; sourceTree = "<group>"; };
+		A8AF107F27D7D12900A051A4 /* ProfileInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoCell.swift; sourceTree = "<group>"; };
+		A8AF108427D7D99A00A051A4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A8AF108627D7D9C100A051A4 /* ProfileScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenCoordinator.swift; sourceTree = "<group>"; };
 		B5680A6827BC0DBB00B88A90 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5680A6927BC0DBB00B88A90 /* Swin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5680A6A27BC0DBB00B88A90 /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +150,7 @@
 		B56ED88627BCC15300DE19DA /* UIView+Style.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = "UIView+Style.swift"; sourceTree = "<group>"; tabWidth = 2; };
 		B56ED88827BCC3AF00DE19DA /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 		B56ED89127BD462E00DE19DA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B56ED89327BD491000DE19DA /* ButtonStartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStartCell.swift; sourceTree = "<group>"; };
+		B56ED89327BD491000DE19DA /* ButtonSaveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSaveCell.swift; sourceTree = "<group>"; };
 		B576A20627CD289500068290 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
 		B5D97CEE27CE16E40055683C /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		B5D97CF027CE19570055683C /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
@@ -217,6 +235,7 @@
 		4BBC573E27B7CE07007AC841 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				A8AF108127D7D94900A051A4 /* UserProfile */,
 				4BBC574327B7D0EE007AC841 /* AuthorizationGroup */,
 			);
 			path = Screens;
@@ -410,10 +429,53 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A8AF107A27D7D0AE00A051A4 /* LoginScreenCells */ = {
+			isa = PBXGroup;
+			children = (
+				A8AF107C27D7D0DB00A051A4 /* TitleLoginCell.swift */,
+			);
+			name = LoginScreenCells;
+			sourceTree = "<group>";
+		};
+		A8AF107E27D7D0FD00A051A4 /* ProfileScreenCells */ = {
+			isa = PBXGroup;
+			children = (
+				A8AF107F27D7D12900A051A4 /* ProfileInfoCell.swift */,
+			);
+			name = ProfileScreenCells;
+			sourceTree = "<group>";
+		};
+		A8AF108127D7D94900A051A4 /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				A8AF108227D7D95F00A051A4 /* ViewModel */,
+				A8AF108327D7D96B00A051A4 /* Views */,
+				A8AF108627D7D9C100A051A4 /* ProfileScreenCoordinator.swift */,
+			);
+			name = UserProfile;
+			sourceTree = "<group>";
+		};
+		A8AF108227D7D95F00A051A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8AF108327D7D96B00A051A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8AF108427D7D99A00A051A4 /* ProfileViewController.swift */,
+			);
+			name = Views;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		B5680AA527BC1DC100B88A90 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				B5D97CF227CE29250055683C /* TextFieldModel.swift */,
+				A839FDCA27DA5CFC0079B79D /* ProfileInfoModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -479,8 +541,12 @@
 			children = (
 				B5680AA827BC1DDE00B88A90 /* TitleStartCell.swift */,
 				B5680AAC27BC25A100B88A90 /* PictureStartCell.swift */,
+				A8AF107827D7D08900A051A4 /* ViewProfileCell .swift */,
 				B5680AE027BC327200B88A90 /* DescriptionStartCell.swift */,
-				B56ED89327BD491000DE19DA /* ButtonStartCell.swift */,
+				A8AF107627D7D06800A051A4 /* ButtonCreateAccCell .swift */,
+				A8AF107427D7D03000A051A4 /* ButtonLoginCell.swift */,
+				B56ED89327BD491000DE19DA /* ButtonSaveCell.swift */,
+				A839FDCE27DA7E4B0079B79D /* ButtonCancelCell.swift */,
 			);
 			path = StartScreenCells;
 			sourceTree = "<group>";
@@ -497,6 +563,8 @@
 		B56ED88E27BCC5B500DE19DA /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				A8AF107E27D7D0FD00A051A4 /* ProfileScreenCells */,
+				A8AF107A27D7D0AE00A051A4 /* LoginScreenCells */,
 				B56ED88B27BCC56200DE19DA /* StartScreenCells */,
 				B576A20627CD289500068290 /* TextFieldCell.swift */,
 			);
@@ -705,7 +773,9 @@
 				B5680AA127BC130000B88A90 /* StartViewModel.swift in Sources */,
 				B56ED88527BCC12800DE19DA /* Label+Style.swift.swift in Sources */,
 				B5680AAD27BC25A100B88A90 /* PictureStartCell.swift in Sources */,
+				A8AF107D27D7D0DB00A051A4 /* TitleLoginCell.swift in Sources */,
 				B5680AA227BC130000B88A90 /* StartViewController.swift in Sources */,
+				A839FDCB27DA5CFC0079B79D /* ProfileInfoModel.swift in Sources */,
 				B5680AAB27BC227800B88A90 /* UITableView+Extension.swift in Sources */,
 				B5680A8E27BC12D200B88A90 /* Reusable.swift in Sources */,
 				B5680A8F27BC12D200B88A90 /* ReusableViewModel.swift in Sources */,
@@ -713,16 +783,22 @@
 				B56ED88727BCC15300DE19DA /* UIView+Style.swift in Sources */,
 				B5D97CF327CE29250055683C /* TextFieldModel.swift in Sources */,
 				B5680A9127BC12D200B88A90 /* CollectionViewCellViewModel.swift in Sources */,
+				A839FDCF27DA7E4B0079B79D /* ButtonCancelCell.swift in Sources */,
 				B5680A9227BC12D200B88A90 /* Coordinator.swift in Sources */,
 				B56ED89227BD462E00DE19DA /* Constants.swift in Sources */,
+				A8AF108727D7D9C100A051A4 /* ProfileScreenCoordinator.swift in Sources */,
 				B5680AA927BC1DDE00B88A90 /* TitleStartCell.swift in Sources */,
-				B56ED89427BD491000DE19DA /* ButtonStartCell.swift in Sources */,
+				B56ED89427BD491000DE19DA /* ButtonSaveCell.swift in Sources */,
 				B5680A9327BC12D200B88A90 /* Operator.swift in Sources */,
 				B5680A9427BC12D200B88A90 /* UITableViewCell+Reusable.swift in Sources */,
 				B5680A9527BC12D200B88A90 /* Assets.swift in Sources */,
+				A8AF107727D7D06800A051A4 /* ButtonCreateAccCell .swift in Sources */,
 				B5680A9627BC12D200B88A90 /* Strings+Generated.swift in Sources */,
 				B5680AE127BC327200B88A90 /* DescriptionStartCell.swift in Sources */,
+				A8AF107927D7D08900A051A4 /* ViewProfileCell .swift in Sources */,
+				A8AF108027D7D12900A051A4 /* ProfileInfoCell.swift in Sources */,
 				B5D97CF127CE19570055683C /* TextField.swift in Sources */,
+				A8AF107527D7D03000A051A4 /* ButtonLoginCell.swift in Sources */,
 				B56ED88927BCC3AF00DE19DA /* UILabel+Extension.swift in Sources */,
 				B5680A9727BC12D200B88A90 /* Colors.swift in Sources */,
 				B5680A9827BC12D200B88A90 /* SignUpViewController.swift in Sources */,
@@ -733,6 +809,7 @@
 				B5680A9B27BC12D200B88A90 /* LoginScreenCoordinator.swift in Sources */,
 				B5680A9E27BC12D200B88A90 /* StartCoordinator.swift in Sources */,
 				B5680A9F27BC12D200B88A90 /* AppCoordinator.swift in Sources */,
+				A8AF108527D7D99A00A051A4 /* ProfileViewController.swift in Sources */,
 				B5680AA027BC12D200B88A90 /* AppDelegate.swift in Sources */,
 				B576A20727CD289500068290 /* TextFieldCell.swift in Sources */,
 			);
@@ -891,6 +968,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -918,6 +996,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

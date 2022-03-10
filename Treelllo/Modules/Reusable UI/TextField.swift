@@ -20,7 +20,7 @@ class TextField: UITextField
   }
   
   private func setUp() {
-    rounded(radius: 25)(self)
+    rounded(radius: 26)(self)
     layer.borderWidth = 1
     layer.borderColor = ColorName.grayTextFieldBorder.color.cgColor
     textColor = ColorName.grayTextFieldBorder.color

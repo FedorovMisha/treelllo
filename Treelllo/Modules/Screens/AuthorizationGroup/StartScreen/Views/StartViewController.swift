@@ -28,7 +28,9 @@ class StartViewController: UIViewController {
     tableView.register(TitleStartCell.self, forCellReuseIdentifier: "\(TitleStartCell.self)")
     tableView.register(PictureStartCell.self, forCellReuseIdentifier: "\(PictureStartCell.self)")
     tableView.register(DescriptionStartCell.self, forCellReuseIdentifier: "\(DescriptionStartCell.self)")
-    tableView.register(ButtonStartCell.self, forCellReuseIdentifier: "\(ButtonStartCell.self)")
+    tableView.register(ButtonSaveCell.self, forCellReuseIdentifier: "\(ButtonSaveCell.self)")
+
+      
     
     tableView.dataSource = self
     tableView.delegate = self
@@ -60,7 +62,7 @@ extension StartViewController: UITableViewDelegate, UITableViewDataSource {
       let cell: DescriptionStartCell = tableView.dequeueReusableCell(for: indexPath)
       return cell
     case 3:
-      let cell: ButtonStartCell = tableView.dequeueReusableCell(for: indexPath)
+      let cell: PictureStartCell = tableView.dequeueReusableCell(for: indexPath)
       return cell
     default:
       fatalError("Invalid index path for cell")

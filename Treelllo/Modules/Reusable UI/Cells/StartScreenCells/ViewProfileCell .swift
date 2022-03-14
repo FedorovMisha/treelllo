@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 
 class ViewProfileCell: UITableViewCell {
-    private var viewProfile: UIView = { // №1
+    private var viewProfile: UIView = {
         let viewProfile = UIView()
         return viewProfile
     }()
@@ -23,10 +23,8 @@ class ViewProfileCell: UITableViewCell {
     
     private func setUpUI() {
         contentView.addSubview(viewProfile)
-        viewProfile.backgroundColor = UIColor(red: 64 / 255, green: 62 / 255, blue: 198 / 255 , alpha: 1)
-        viewProfile.layer.shadowOffset = CGSize(width: 50, height: 50)
-        viewProfile.layer.shadowRadius = 50
-        viewProfile.layer.shadowOpacity = 0.8
+        viewProfile.backgroundColor = UIColor(red: 63 / 255, green: 56 / 255, blue: 200 / 255 , alpha: 1)
+       
     }
     
     private func setUpLayout() {

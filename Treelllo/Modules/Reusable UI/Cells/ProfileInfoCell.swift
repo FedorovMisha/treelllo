@@ -22,18 +22,10 @@ class ProfileInfoCell: UITableViewCell {
         configure(model: model)
     }
     
-//    func configureText(model: ProfileInfoModel) {
-//
-//        emailLabel.font = FontFamily.Lato.bold.font(size: 14)
-//        emailLabel.text = model.text
-//    }
-    
-    
-    
     
     private lazy var leftRect: UIView = {
         let leftRect = UIView()
-        leftRect.backgroundColor = UIColor(red: 64 / 255, green: 62 / 255, blue: 198 / 255 , alpha: 1)
+        leftRect.backgroundColor = UIColor(red: 63 / 255, green: 56 / 255, blue: 200 / 255 , alpha: 1)
         return leftRect
     }()
     
@@ -79,16 +71,13 @@ class ProfileInfoCell: UITableViewCell {
             make.height.equalTo(20)
             make.left.equalTo(leftRect).offset(23)
             make.right.equalTo(contentView).offset(-50)
-            //make.top.equalTo(contentView).offset(40)
-            //make.bottom.equalTo(contentView).offset(-10)
+           
         }
         emailLabel.snp.makeConstraints { make in
         make.centerX.equalTo(contentView)
-        //make.centerY.equalTo(contentView)
-//        make.height.equalTo(20)
         make.left.equalTo(leftRect).offset(27)
         make.top.equalTo(label).offset(20)
-//
+
     }
         
         

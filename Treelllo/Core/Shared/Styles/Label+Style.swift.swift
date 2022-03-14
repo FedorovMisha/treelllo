@@ -38,7 +38,6 @@ func customizedButton( //////////
     }
   }
 
-//let v = customizedButton(withFont: <#T##UIFont#>, color: .black)
   
 
 func filled(_ text: String, withKern kern: Double? = nil)

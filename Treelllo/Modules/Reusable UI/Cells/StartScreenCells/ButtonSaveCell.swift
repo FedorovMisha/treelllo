@@ -16,7 +16,7 @@ class ButtonSaveCell: UITableViewCell {
         button.setTitle("Save", for: .normal)
         button.titleLabel?.font = UIFont(name: FontFamily.Lato.bold.name, size: 25)
         button.titleLabel?.addCharacterSpacing(kernValue: 3)
-        button.backgroundColor = UIColor(red: 64 / 255, green: 62 / 255, blue: 198 / 255 , alpha: 1)
+        button.backgroundColor = UIColor(red: 63 / 255, green: 56 / 255, blue: 200 / 255 , alpha: 1)
         rounded(radius: 25)(button)
         
         return button

@@ -14,8 +14,9 @@ class ButtonCreateAccCell: UITableViewCell {
         let button = UIButton()
         button.titleLabel?.font = UIFont(name: FontFamily.Lato.bold.name, size: 25)
         button.setTitle("Crete account", for: .normal)
+//        let b = customized(withFont: FontFamily.Lato.bold.name, color: .black)
+
         //button.currentImage = UIImage(named: "arrow-left")
-        print("Crete account \(Images.arrowLeft.image)")
         button.titleLabel?.addCharacterSpacing(kernValue: 3)
         button.backgroundColor = .cyan
         button.titleLabel?.textColor = .black

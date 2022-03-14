@@ -17,6 +17,8 @@
 		A8AF108027D7D12900A051A4 /* ProfileInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF107F27D7D12900A051A4 /* ProfileInfoCell.swift */; };
 		A8AF108527D7D99A00A051A4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF108427D7D99A00A051A4 /* ProfileViewController.swift */; };
 		A8AF108727D7D9C100A051A4 /* ProfileScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF108627D7D9C100A051A4 /* ProfileScreenCoordinator.swift */; };
+		A8E8B53727DD2CD50085F07A /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8B53627DD2CD50085F07A /* UserInfo.swift */; };
+		A8E8B53927DE1F520085F07A /* Lato-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8E8B53827DE1F520085F07A /* Lato-SemiBold.ttf */; };
 		B5680A8E27BC12D200B88A90 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576127B7D42E007AC841 /* Reusable.swift */; };
 		B5680A8F27BC12D200B88A90 /* ReusableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576327B7D462007AC841 /* ReusableViewModel.swift */; };
 		B5680A9027BC12D200B88A90 /* TableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC576727B7D4AE007AC841 /* TableCellViewModel.swift */; };
@@ -123,6 +125,8 @@
 		A8AF107F27D7D12900A051A4 /* ProfileInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoCell.swift; sourceTree = "<group>"; };
 		A8AF108427D7D99A00A051A4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A8AF108627D7D9C100A051A4 /* ProfileScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreenCoordinator.swift; sourceTree = "<group>"; };
+		A8E8B53627DD2CD50085F07A /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		A8E8B53827DE1F520085F07A /* Lato-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiBold.ttf"; sourceTree = "<group>"; };
 		B5680A6827BC0DBB00B88A90 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5680A6927BC0DBB00B88A90 /* Swin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5680A6A27BC0DBB00B88A90 /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -441,6 +445,7 @@
 			isa = PBXGroup;
 			children = (
 				A8AF107F27D7D12900A051A4 /* ProfileInfoCell.swift */,
+				A8E8B53627DD2CD50085F07A /* UserInfo.swift */,
 			);
 			name = ProfileScreenCells;
 			sourceTree = "<group>";
@@ -598,6 +603,7 @@
 				B5D97CF827CE3BA60055683C /* Lato-Bold.ttf */,
 				B5D97CF927CE3BA60055683C /* Lato-Black.ttf */,
 				B5D97CFA27CE3BA60055683C /* Lato-Regular.ttf */,
+				A8E8B53827DE1F520085F07A /* Lato-SemiBold.ttf */,
 				B5D97CFB27CE3BA60055683C /* Lato-BlackItalic.ttf */,
 				B5D97CFC27CE3BA60055683C /* OFL.txt */,
 				B5D97CFD27CE3BA60055683C /* Lato-BoldItalic.ttf */,
@@ -682,6 +688,7 @@
 				B5680ACE27BC2EC000B88A90 /* Nunito-ExtraLightItalic.ttf in Resources */,
 				B5D97D0427CE3BA60055683C /* Lato-Black.ttf in Resources */,
 				B5680AAF27BC2D1F00B88A90 /* LaunchScreen.storyboard in Resources */,
+				A8E8B53927DE1F520085F07A /* Lato-SemiBold.ttf in Resources */,
 				B5D97D0327CE3BA60055683C /* Lato-Bold.ttf in Resources */,
 				B5680AB027BC2D1F00B88A90 /* Localize.strings in Resources */,
 				B5680AD327BC2EC000B88A90 /* Nunito-BoldItalic.ttf in Resources */,
@@ -771,6 +778,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5680AA127BC130000B88A90 /* StartViewModel.swift in Sources */,
+				A8E8B53727DD2CD50085F07A /* UserInfo.swift in Sources */,
 				B56ED88527BCC12800DE19DA /* Label+Style.swift.swift in Sources */,
 				B5680AAD27BC25A100B88A90 /* PictureStartCell.swift in Sources */,
 				A8AF107D27D7D0DB00A051A4 /* TitleLoginCell.swift in Sources */,

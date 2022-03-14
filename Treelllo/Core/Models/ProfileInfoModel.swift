@@ -8,7 +8,8 @@
 import UIKit
 import Foundation
 
-enum ProfileInfoModel {
+
+enum ProfileInfoModel: Int {
     case userName
     case email
     case phone
@@ -29,7 +30,5 @@ enum ProfileInfoModel {
             return "City"
         }
     }
-    
-    
 }
 

@@ -24,6 +24,9 @@ class ViewProfileCell: UITableViewCell {
     private func setUpUI() {
         contentView.addSubview(viewProfile)
         viewProfile.backgroundColor = UIColor(red: 64 / 255, green: 62 / 255, blue: 198 / 255 , alpha: 1)
+        viewProfile.layer.shadowOffset = CGSize(width: 50, height: 50)
+        viewProfile.layer.shadowRadius = 50
+        viewProfile.layer.shadowOpacity = 0.8
     }
     
     private func setUpLayout() {

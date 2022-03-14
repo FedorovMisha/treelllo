@@ -29,7 +29,8 @@ internal enum FontFamily {
     internal static let light = FontConvertible(name: "Lato-Light", family: "Lato", path: "Lato-Light.ttf")
     internal static let lightItalic = FontConvertible(name: "Lato-LightItalic", family: "Lato", path: "Lato-LightItalic.ttf")
     internal static let regular = FontConvertible(name: "Lato-Regular", family: "Lato", path: "Lato-Regular.ttf")
-    internal static let all: [FontConvertible] = [black, blackItalic, bold, boldItalic, hairline, hairlineItalic, italic, light, lightItalic, regular]
+    internal static let semiBold = FontConvertible(name: "Lato-SemiBold", family: "Lato", path: "Lato-SemiBold.ttf")
+    internal static let all: [FontConvertible] = [black, blackItalic, bold, boldItalic, hairline, hairlineItalic, italic, light, lightItalic, regular, semiBold]
   }
   internal enum Nunito {
     internal static let black = FontConvertible(name: "Nunito-Black", family: "Nunito", path: "Nunito-Black.ttf")

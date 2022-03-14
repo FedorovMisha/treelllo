@@ -58,6 +58,23 @@ extension ProfileViewController: UITableViewDelegate, UITableViewDataSource {
             return cell
         case 1:
             let cell: ProfileInfoCell = tableView.dequeueReusableCell(for: indexPath)
+            cell.setUserText(for: indexPath, withOffset: 1)
+            return cell
+        case 2:
+            let cell: ProfileInfoCell = tableView.dequeueReusableCell(for: indexPath)
+            cell.setUserText(for: indexPath, withOffset: 1)
+            return cell
+        case 3:
+            let cell: ProfileInfoCell = tableView.dequeueReusableCell(for: indexPath)
+            cell.setUserText(for: indexPath, withOffset: 1)
+            return cell
+        case 4:
+            let cell: ProfileInfoCell = tableView.dequeueReusableCell(for: indexPath)
+            cell.setUserText(for: indexPath, withOffset: 1)
+            return cell
+        case 5:
+            let cell: ProfileInfoCell = tableView.dequeueReusableCell(for: indexPath)
+            cell.setUserText(for: indexPath, withOffset: 1)
             return cell
         case 6:
             let cell: ButtonSaveCell = tableView.dequeueReusableCell(for: indexPath)

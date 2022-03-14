@@ -15,6 +15,20 @@ class ProfileInfoCell: UITableViewCell {
         configureUI()
     }
     
+     func setUserText(for indexPath: IndexPath, withOffset offset: Int) {
+       
+        guard let model = ProfileInfoModel(rawValue: indexPath.row - offset)
+        else { fatalError("[TextFieldCell] - Wrong index path for cell")}
+        configure(model: model)
+    }
+    
+//    func configureText(model: ProfileInfoModel) {
+//
+//        emailLabel.font = FontFamily.Lato.bold.font(size: 14)
+//        emailLabel.text = model.text
+//    }
+    
+    
     
     
     private lazy var leftRect: UIView = {
@@ -23,15 +37,7 @@ class ProfileInfoCell: UITableViewCell {
         return leftRect
     }()
     
-    private lazy var emailLabel: UILabel = {
-        var emailLabel = UILabel()
-        let text = "User name"
-        emailLabel = UILabel.withStyle(f: descriptionLabelStyle =>
-                                                         filled(text, withKern: 2))
-        emailLabel.textAlignment = .left
-        emailLabel.font = FontFamily.Lato.bold.font(size: 14)
-        return emailLabel
-    }()
+    private lazy var emailLabel = UILabel()
         
     
     private lazy var label: UILabel = {
@@ -41,12 +47,16 @@ class ProfileInfoCell: UITableViewCell {
         label = UILabel.withStyle(f: titleLabelStyle =>
                                                          filled(text, withKern: 2))
         label.textAlignment = .left
-        label.font = FontFamily.Nunito.semiBold.font(size: 21)
+        label.font = FontFamily.Lato.semiBold.font(size: 21)
         return label
     }()
     
     
     private func configureUI() {
+        emailLabel.textColor = ColorName.defaultBlackLabel.color
+        emailLabel.textAlignment = .left
+        emailLabel.font = FontFamily.Lato.regular.font(size: 14)
+        
         contentView.addSubview(label)
         contentView.addSubview(emailLabel)
         contentView.addSubview(leftRect)
@@ -85,8 +95,16 @@ class ProfileInfoCell: UITableViewCell {
     }
     
     
+   
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+}
+
+extension ProfileInfoCell {
+    
+    func configure(model: ProfileInfoModel) {
+        emailLabel.text = model.text
     }
 }

@@ -17,7 +17,12 @@ class ButtonLoginCell: UITableViewCell {
         button.titleLabel?.addCharacterSpacing(kernValue: 3)
         button.backgroundColor = UIColor(red: 64 / 255, green: 62 / 255, blue: 198 / 255 , alpha: 1)
         rounded(radius: 25)(button)
-
+        
+        button.layer.masksToBounds = false
+        button.layer.shadowOffset = CGSize(width: 0, height: 10)
+        button.layer.shadowRadius = 10
+        button.layer.shadowOpacity = 0.2
+        button.layer.shadowColor = UIColor.black.cgColor
         return button
     }()
     

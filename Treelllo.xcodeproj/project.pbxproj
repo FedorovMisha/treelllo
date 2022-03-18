@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		968F01BC691C19DE6D5A8F11 /* Pods_Treelllo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245A3D3EB8C7E3DF99D2468C /* Pods_Treelllo.framework */; };
+		A837807627E327D4003320E5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A837807527E327D4003320E5 /* LoginViewModel.swift */; };
+		A837807827E32845003320E5 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A837807727E32845003320E5 /* SignUpViewModel.swift */; };
+		A837807C27E3334C003320E5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A837807B27E3334C003320E5 /* Color.swift */; };
 		A839FDCB27DA5CFC0079B79D /* ProfileInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A839FDCA27DA5CFC0079B79D /* ProfileInfoModel.swift */; };
 		A839FDCF27DA7E4B0079B79D /* ButtonCancelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A839FDCE27DA7E4B0079B79D /* ButtonCancelCell.swift */; };
 		A8AF107527D7D03000A051A4 /* ButtonLoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AF107427D7D03000A051A4 /* ButtonLoginCell.swift */; };
@@ -28,7 +31,6 @@
 		B5680A9427BC12D200B88A90 /* UITableViewCell+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B85E3DB27B97FAB00A85D3B /* UITableViewCell+Reusable.swift */; };
 		B5680A9527BC12D200B88A90 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC79D3527B6A2E100AD179C /* Assets.swift */; };
 		B5680A9627BC12D200B88A90 /* Strings+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC79D3627B6A2E100AD179C /* Strings+Generated.swift */; };
-		B5680A9727BC12D200B88A90 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC79D3727B6A2E100AD179C /* Colors.swift */; };
 		B5680A9827BC12D200B88A90 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4405627B7ED0E00569C69 /* SignUpViewController.swift */; };
 		B5680A9927BC12D200B88A90 /* SignUpCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC574927B7D135007AC841 /* SignUpCoordinator.swift */; };
 		B5680A9A27BC12D200B88A90 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4405827B7ED2B00569C69 /* LoginViewController.swift */; };
@@ -110,12 +112,14 @@
 		4BC79D3027B6A2A400AD179C /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		4BC79D3527B6A2E100AD179C /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		4BC79D3627B6A2E100AD179C /* Strings+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Strings+Generated.swift"; sourceTree = "<group>"; };
-		4BC79D3727B6A2E100AD179C /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		4BC79D3A27B6A2E100AD179C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localize.strings; sourceTree = "<group>"; };
 		4BC79D3B27B6A2E100AD179C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localize.strings; sourceTree = "<group>"; };
 		4BC79D3D27B6A2E100AD179C /* Colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Colors.txt; sourceTree = "<group>"; };
 		4BC79D4627B6A34700AD179C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C2583B41D0AC88DE8736778 /* Pods-Treelllo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Treelllo.release.xcconfig"; path = "Target Support Files/Pods-Treelllo/Pods-Treelllo.release.xcconfig"; sourceTree = "<group>"; };
+		A837807527E327D4003320E5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = "Treelllo/Modules/Reusable UI/Cells/StartScreenCells/LoginViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		A837807727E32845003320E5 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewModel.swift; path = "Treelllo/Modules/Reusable UI/Cells/StartScreenCells/SignUpViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		A837807B27E3334C003320E5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		A839FDCA27DA5CFC0079B79D /* ProfileInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoModel.swift; sourceTree = "<group>"; };
 		A839FDCE27DA7E4B0079B79D /* ButtonCancelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCancelCell.swift; sourceTree = "<group>"; };
 		A8AF107427D7D03000A051A4 /* ButtonLoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLoginCell.swift; sourceTree = "<group>"; };
@@ -307,6 +311,7 @@
 		4BBC574827B7D121007AC841 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				A837807727E32845003320E5 /* SignUpViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -322,6 +327,7 @@
 		4BBC574C27B7D13B007AC841 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A837807527E327D4003320E5 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -383,7 +389,7 @@
 			children = (
 				4BC79D3527B6A2E100AD179C /* Assets.swift */,
 				4BC79D3627B6A2E100AD179C /* Strings+Generated.swift */,
-				4BC79D3727B6A2E100AD179C /* Colors.swift */,
+				A837807B27E3334C003320E5 /* Color.swift */,
 				B5D97D0B27CE3CE60055683C /* CustomFonts.swift */,
 			);
 			path = Generated;
@@ -787,6 +793,7 @@
 				B5680AAB27BC227800B88A90 /* UITableView+Extension.swift in Sources */,
 				B5680A8E27BC12D200B88A90 /* Reusable.swift in Sources */,
 				B5680A8F27BC12D200B88A90 /* ReusableViewModel.swift in Sources */,
+				A837807C27E3334C003320E5 /* Color.swift in Sources */,
 				B5680A9027BC12D200B88A90 /* TableCellViewModel.swift in Sources */,
 				B56ED88727BCC15300DE19DA /* UIView+Style.swift in Sources */,
 				B5D97CF327CE29250055683C /* TextFieldModel.swift in Sources */,
@@ -799,8 +806,10 @@
 				B56ED89427BD491000DE19DA /* ButtonSaveCell.swift in Sources */,
 				B5680A9327BC12D200B88A90 /* Operator.swift in Sources */,
 				B5680A9427BC12D200B88A90 /* UITableViewCell+Reusable.swift in Sources */,
+				A837807827E32845003320E5 /* SignUpViewModel.swift in Sources */,
 				B5680A9527BC12D200B88A90 /* Assets.swift in Sources */,
 				A8AF107727D7D06800A051A4 /* ButtonCreateAccCell .swift in Sources */,
+				A837807627E327D4003320E5 /* LoginViewModel.swift in Sources */,
 				B5680A9627BC12D200B88A90 /* Strings+Generated.swift in Sources */,
 				B5680AE127BC327200B88A90 /* DescriptionStartCell.swift in Sources */,
 				A8AF107927D7D08900A051A4 /* ViewProfileCell .swift in Sources */,
@@ -808,7 +817,6 @@
 				B5D97CF127CE19570055683C /* TextField.swift in Sources */,
 				A8AF107527D7D03000A051A4 /* ButtonLoginCell.swift in Sources */,
 				B56ED88927BCC3AF00DE19DA /* UILabel+Extension.swift in Sources */,
-				B5680A9727BC12D200B88A90 /* Colors.swift in Sources */,
 				B5680A9827BC12D200B88A90 /* SignUpViewController.swift in Sources */,
 				B5680A9927BC12D200B88A90 /* SignUpCoordinator.swift in Sources */,
 				B5D97CEF27CE16E40055683C /* UITextField+Extension.swift in Sources */,

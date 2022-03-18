@@ -10,24 +10,6 @@ import SnapKit
 
 class ButtonCreateAccCell: UITableViewCell {
     
-    private lazy var button: UIButton = {
-        let button = UIButton()
-        button.titleLabel?.font = UIFont(name: FontFamily.Lato.bold.name, size: 25)
-        button.setTitle("Crete account", for: .normal)
-//        let b = customized(withFont: FontFamily.Lato.bold.name, color: .black)
-
-        //button.currentImage = UIImage(named: "arrow-left")
-        button.titleLabel?.addCharacterSpacing(kernValue: 3)
-        button.backgroundColor = .cyan
-        button.titleLabel?.textColor = .black
-
-        rounded(radius: 25)(button)
-        
-        return button
-    }()
-    
-    // 86 44 232
-    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
@@ -35,8 +17,21 @@ class ButtonCreateAccCell: UITableViewCell {
         setUpLayout()
     }
     
+    private lazy var button: UIButton = {
+        let button = UIButton()
+        button.titleLabel?.font = UIFont(name: FontFamily.Lato.bold.name, size: 25)
+        button.setImage(UIImage(named: "arrow-left-2"), for: .normal)
+        button.setTitle("Crete account", for: .normal)
+        button.titleLabel?.addCharacterSpacing(kernValue: 3)
+        button.setTitleColor(ColorName.defaultBlackLabel.color, for: .normal)
+        button.semanticContentAttribute = .forceRightToLeft
+        rounded(radius: 25)(button)
+        return button
+    }()
+    
     private func setUpUI() {
         contentView.addSubview(button)
+        
     }
     
     private func setUpLayout() {
@@ -49,6 +44,5 @@ class ButtonCreateAccCell: UITableViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }
 

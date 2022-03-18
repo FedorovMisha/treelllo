@@ -17,7 +17,7 @@ class TitleLoginCell: UITableViewCell {
         label.textAlignment = .center
         return label
     }()
-   
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
@@ -28,7 +28,9 @@ class TitleLoginCell: UITableViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
+}
+
+extension TitleLoginCell {
     private func setUpLayout() {
         titleLabel.snp.makeConstraints {
             $0.centerX.equalToSuperview()
@@ -39,13 +41,12 @@ class TitleLoginCell: UITableViewCell {
             $0.bottom.equalTo(contentView).offset(-40)
         }
     }
+    
     private func setUpUI() {
         contentView.addSubview(titleLabel)
     }
+    
     func configure(f: (UILabel) -> Void) {
         f(titleLabel)
     }
-    
-    
-    
 }

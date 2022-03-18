@@ -9,11 +9,11 @@ import UIKit
 import SnapKit
 
 class ViewProfileCell: UITableViewCell {
+    
     private var viewProfile: UIView = {
         let viewProfile = UIView()
         return viewProfile
     }()
-    
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -23,8 +23,7 @@ class ViewProfileCell: UITableViewCell {
     
     private func setUpUI() {
         contentView.addSubview(viewProfile)
-        viewProfile.backgroundColor = UIColor(red: 63 / 255, green: 56 / 255, blue: 200 / 255 , alpha: 1)
-       
+        viewProfile.backgroundColor = ColorName.deeppurple
     }
     
     private func setUpLayout() {
@@ -39,7 +38,6 @@ class ViewProfileCell: UITableViewCell {
             $0.bottom.equalTo(-30)
         }
     }
-    
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

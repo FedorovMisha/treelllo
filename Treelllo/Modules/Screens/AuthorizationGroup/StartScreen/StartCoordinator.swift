@@ -20,7 +20,7 @@ final class StartCoordinator: Coordinator {
     }
     
     func start() -> UIViewController {
-        let controller = ProfileViewController()
+        let controller = LoginViewController()
         return controller
     }
 }

@@ -10,6 +10,12 @@ import SnapKit
 
 class ButtonCancelCell: UITableViewCell {
     
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        setUpUI()
+        setUpLayout()
+    }
+    
     private lazy var button: UIButton = {
         let button = UIButton()
         button.titleLabel?.textColor = .white
@@ -26,15 +32,6 @@ class ButtonCancelCell: UITableViewCell {
         return button
     }()
     
-    
-    
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
-        setUpUI()
-        setUpLayout()
-    }
-    
     private func setUpUI() {
         contentView.addSubview(button)
     }
@@ -49,5 +46,4 @@ class ButtonCancelCell: UITableViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }

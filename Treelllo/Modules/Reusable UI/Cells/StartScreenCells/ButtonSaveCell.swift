@@ -10,30 +10,25 @@ import SnapKit
 
 class ButtonSaveCell: UITableViewCell {
     
-    private lazy var button: UIButton = {
-        let button = UIButton()
-        button.titleLabel?.textColor = .white
-        button.setTitle("Save", for: .normal)
-        button.titleLabel?.font = UIFont(name: FontFamily.Lato.bold.name, size: 25)
-        button.titleLabel?.addCharacterSpacing(kernValue: 3)
-        button.backgroundColor = UIColor(red: 63 / 255, green: 56 / 255, blue: 200 / 255 , alpha: 1)
-        rounded(radius: 25)(button)
-        
-        return button
-    }()
-    
-    
-    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        
         setUpUI()
         setUpLayout()
     }
     
+    private lazy var button: UIButton = {
+        let button = UIButton()
+        button.titleLabel?.font = UIFont(name: FontFamily.Lato.bold.name, size: 25)
+        button.titleLabel?.textColor = .white
+        button.setTitle("Save", for: .normal)
+        //UIFont(name: FontFamily.Lato.bold.name, size: 25)
+        button.titleLabel?.addCharacterSpacing(kernValue: 3)
+        button.backgroundColor = ColorName.deeppurple
+        return button
+    }()
+    
     private func setUpUI() {
         contentView.addSubview(button)
-        
     }
     
     private func setUpLayout() {
@@ -51,5 +46,4 @@ class ButtonSaveCell: UITableViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }

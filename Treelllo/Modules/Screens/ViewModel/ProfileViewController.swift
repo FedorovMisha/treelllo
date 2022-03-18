@@ -15,7 +15,6 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         confTableView()
-        
     }
     
     
@@ -28,19 +27,15 @@ class ProfileViewController: UIViewController {
     private func confTableView() {
         
         view.addSubview(tableView)
-        
         tableView.separatorStyle = .none
         tableView.allowsSelection = false
-        
         tableView.delegate = self
         tableView.dataSource = self
-        
         tableView.register(ViewProfileCell.self, forCellReuseIdentifier: "\(ViewProfileCell.self)")
         tableView.register(TextFieldCell.self, forCellReuseIdentifier: "\(TextFieldCell.self)")
         tableView.register(ProfileInfoCell.self, forCellReuseIdentifier: "\(ProfileInfoCell.self)")
         tableView.register(ButtonSaveCell.self, forCellReuseIdentifier: "\(ButtonSaveCell.self)")
         tableView.register(ButtonCancelCell.self, forCellReuseIdentifier: "\(ButtonCancelCell.self)")
-        
     }
 }
 
@@ -87,6 +82,4 @@ extension ProfileViewController: UITableViewDelegate, UITableViewDataSource {
             return cell
         }
     }
-    
-    
 }

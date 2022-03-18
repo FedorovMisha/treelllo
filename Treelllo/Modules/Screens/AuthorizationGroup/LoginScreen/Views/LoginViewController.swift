@@ -10,14 +10,25 @@ import UIKit
 class LoginViewController: UIViewController {
     
     private var tableView = UITableView()
-    
-    
-    
+    private var textField = TextField()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Hello!")
+
         view.backgroundColor = .white
         configuereTableView()
+        
+        let guestuere = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard(sender:)))
+        guestuere.numberOfTapsRequired = 1
+        guestuere.numberOfTouchesRequired = 1
+        view.addGestureRecognizer(guestuere)
+        
+        // add Observer
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillshow(sender:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(hideKeyboard(sender:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+
         
     }
     
@@ -29,18 +40,15 @@ class LoginViewController: UIViewController {
 
 extension LoginViewController: UITableViewDelegate, UITableViewDataSource {
     
-
     private func configuereTableView() {
         tableView.separatorStyle = .none
         tableView.allowsSelection = false
-        
         tableView.register(TitleLoginCell.self, forCellReuseIdentifier: "\(TitleLoginCell.self)")
         tableView.register(ButtonLoginCell.self, forCellReuseIdentifier: "\(ButtonLoginCell.self)")
         tableView.register(TextFieldCell.self, forCellReuseIdentifier: "\(TextFieldCell.self)")
         tableView.register(ButtonCreateAccCell.self, forCellReuseIdentifier: "\(ButtonCreateAccCell.self)")
         tableView.dataSource = self
         tableView.delegate = self
-        
         view.addSubview(tableView)
     }
     
@@ -64,13 +72,33 @@ extension LoginViewController: UITableViewDelegate, UITableViewDataSource {
             return cell
         case 4: let cell: ButtonCreateAccCell = tableView.dequeueReusableCell(for: indexPath)
             return cell
-            
         default:
             fatalError("Invalid index path for cell")
         }
     }
     
+    @objc func hideKeyboard(sender: UITapGestureRecognizer) {
+        self.view.endEditing(true)
+        textField.layer.masksToBounds = true
+        textField.layer.shadowOffset = CGSize(width: 0, height: 10)
+        textField.layer.shadowRadius = 0
+        textField.layer.shadowOpacity = 0.0
+        textField.layer.shadowColor = UIColor.black.cgColor
+        textField.endEditing()
+        print("Hide observer")
+    }
+    
+    @objc func keyboardWillshow(sender: UITapGestureRecognizer) {
+        print("Show observer")
+        if let keyboardFrame: NSValue = 
+
+    }
     
     
     
+    
+    
+    func registerForKeyboardNotification() {
+        
+    }
 }

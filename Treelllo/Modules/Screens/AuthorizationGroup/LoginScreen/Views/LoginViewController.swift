@@ -11,12 +11,12 @@ class LoginViewController: UIViewController {
     
     private var tableView = UITableView()
     private var textField = TextField()
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello!")
-
+        
         view.backgroundColor = .white
         configuereTableView()
         
@@ -26,9 +26,10 @@ class LoginViewController: UIViewController {
         view.addGestureRecognizer(guestuere)
         
         // add Observer
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillshow(sender:)), name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(hideKeyboard(sender:)), name: UIResponder.keyboardWillHideNotification, object: nil)
-
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillshow(notification:)), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillhide(notification:)), name: UIResponder.keyboardWillHideNotification, object: nil)
+        
+        
         
     }
     
@@ -85,13 +86,24 @@ extension LoginViewController: UITableViewDelegate, UITableViewDataSource {
         textField.layer.shadowOpacity = 0.0
         textField.layer.shadowColor = UIColor.black.cgColor
         textField.endEditing()
-        print("Hide observer")
+        print("Hide func")
+        print("\(self.view.frame.origin.y)")
+        print("\(self.view.frame.height)")
     }
     
-    @objc func keyboardWillshow(sender: UITapGestureRecognizer) {
+    @objc func keyboardWillshow(notification: NSNotification) {
         print("Show observer")
-        if let keyboardFrame: NSValue = 
-
+        if let keyboardFrame: NSValue = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue {
+            let keyboardHeight = keyboardFrame.cgSizeValue.height
+//            let bottomSpace = self.view.frame.height - ()
+            self.view.frame.origin.y -= keyboardHeight
+        }
+    }
+    
+    @objc func keyboardWillhide(notification: NSNotification) {
+        print("Hide observer1")
+        self.view.endEditing(true)
+        
     }
     
     

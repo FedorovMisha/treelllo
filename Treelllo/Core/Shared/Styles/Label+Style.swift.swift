@@ -27,6 +27,19 @@ func customized(
     }
   }
 
+func customizedButton( //////////
+  withFont font: UIFont,
+  color: UIColor,
+  text: String = "Create account") -> (UILabel) -> Void {
+    {
+      $0.font = UIFontMetrics.default.scaledFont(for: font)
+      $0.textColor = color
+      $0.text = text
+    }
+  }
+
+  
+
 func filled(_ text: String, withKern kern: Double? = nil)
 -> (UILabel) -> Void {
   {

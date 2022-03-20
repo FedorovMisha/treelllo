@@ -106,10 +106,6 @@ extension LoginViewController: UITableViewDelegate, UITableViewDataSource {
         
     }
     
-    
-    
-    
-    
     func registerForKeyboardNotification() {
         
     }
